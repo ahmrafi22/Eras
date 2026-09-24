@@ -37,7 +37,7 @@ export function Decor({
             vectorEffect="non-scaling-stroke"
             x1="0%"
             x2="100%"
-            y1="0%"
+            y1="100%"
             y2="0%"
           />
         </svg>
@@ -144,7 +144,7 @@ export function Decor({
             strokeWidth="1"
             vectorEffect="non-scaling-stroke"
             x1="0%"
-            x2="0%"
+            x2="100%"
             y1="0%"
             y2="100%"
           />
