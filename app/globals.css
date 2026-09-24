@@ -29,3 +29,10 @@
   --font-accent: "sloop-script-three", sans-serif;
   --breakpoint-era: 992px;
 }
+
+.container {
+  width: 100%;
+  max-width: none;
+  margin-right: 0;
+  margin-left: 0;
+}
