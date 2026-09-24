@@ -1,7 +1,6 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { SplitText } from "gsap/SplitText";
-import lottie from "lottie-web";
 import { BREAKPOINT, DUR_L, DUR_M, STAGGER, queryAll } from "./dom";
 import type { EraRuntime } from "./runtime";
 
@@ -539,51 +538,63 @@ function initScrollBar(runtime: EraRuntime) {
 }
 
 function initTFTLjson(runtime: EraRuntime) {
-  queryAll<HTMLElement>(".credits").forEach((credits) => {
-    const logo = credits.querySelector<HTMLElement>(".credits_logo");
-    const path = logo?.getAttribute("data-json");
-    if (!logo || !path) return;
+  let cancelled = false;
 
-    const animation = lottie.loadAnimation({
-      container: logo,
-      renderer: "svg",
-      loop: false,
-      autoplay: false,
-      path,
-    });
-    const maxFrame = 99;
-    const timeline = gsap.timeline({ paused: true }).to(
-      { frame: 0 },
-      {
-        frame: 1,
-        duration: 1,
-        ease: "none",
-        onUpdate() {
-          const target = this.targets()[0] as { frame: number };
-          const frame = Math.round(target.frame * (maxFrame - 1));
-          animation.goToAndStop(frame, true);
+  const initialize = async () => {
+    const { default: lottie } = await import("lottie-web");
+    if (cancelled || runtime.destroyed) return;
+
+    queryAll<HTMLElement>(".credits").forEach((credits) => {
+      const logo = credits.querySelector<HTMLElement>(".credits_logo");
+      const path = logo?.getAttribute("data-json");
+      if (!logo || !path) return;
+
+      const animation = lottie.loadAnimation({
+        container: logo,
+        renderer: "svg",
+        loop: false,
+        autoplay: false,
+        path,
+      });
+      const maxFrame = 99;
+      const timeline = gsap.timeline({ paused: true }).to(
+        { frame: 0 },
+        {
+          frame: 1,
+          duration: 1,
+          ease: "none",
+          onUpdate() {
+            const target = this.targets()[0] as { frame: number };
+            const frame = Math.round(target.frame * (maxFrame - 1));
+            animation.goToAndStop(frame, true);
+          },
         },
-      },
-    );
-    const onEnter = () => {
-      gsap.to(timeline, { progress: 0.5, duration: 1 });
-    };
-    const onLeave = () => {
-      gsap.to(timeline, { progress: 1, duration: 1 });
-    };
+      );
+      const onEnter = () => {
+        gsap.to(timeline, { progress: 0.5, duration: 1 });
+      };
+      const onLeave = () => {
+        gsap.to(timeline, { progress: 1, duration: 1 });
+      };
 
-    animation.goToAndStop(0, true);
-    credits.addEventListener("mouseenter", onEnter);
-    credits.addEventListener("mouseleave", onLeave);
+      animation.goToAndStop(0, true);
+      credits.addEventListener("mouseenter", onEnter);
+      credits.addEventListener("mouseleave", onLeave);
 
-    runtime.addCleanup(() => {
-      credits.removeEventListener("mouseenter", onEnter);
-      credits.removeEventListener("mouseleave", onLeave);
-      gsap.killTweensOf(timeline);
-      timeline.kill();
-      animation.destroy();
+      runtime.addCleanup(() => {
+        credits.removeEventListener("mouseenter", onEnter);
+        credits.removeEventListener("mouseleave", onLeave);
+        gsap.killTweensOf(timeline);
+        timeline.kill();
+        animation.destroy();
+      });
     });
+  };
+
+  runtime.addCleanup(() => {
+    cancelled = true;
   });
+  void initialize();
 }
 
 function initFloatingTips(runtime: EraRuntime) {
