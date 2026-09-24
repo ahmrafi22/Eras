@@ -24,17 +24,22 @@ import {
   animateTextP,
 } from "./text";
 
-function readSessionItem(key: string): string | null {
+const PRELOADER_SESSION_KEY = "era-preloader-visited-v1";
+let preloaderVisit: string | null | undefined;
+
+function readPreloaderVisit(): string | null {
+  if (preloaderVisit !== undefined) return preloaderVisit;
   try {
-    return sessionStorage.getItem(key);
+    preloaderVisit = sessionStorage.getItem(PRELOADER_SESSION_KEY);
   } catch {
-    return null;
+    preloaderVisit = null;
   }
+  return preloaderVisit;
 }
 
-function writeSessionItem(key: string, value: string): void {
+function writePreloaderVisit(): void {
   try {
-    sessionStorage.setItem(key, value);
+    sessionStorage.setItem(PRELOADER_SESSION_KEY, "true");
   } catch {
     return;
   }
@@ -353,7 +358,7 @@ export function initPreloader(
   onReady: () => void = () => {},
 ): void {
   registerCustomEases();
-  const hasVisited = readSessionItem("hasVisited");
+  const hasVisited = readPreloaderVisit();
 
   initLenis(runtime);
   initCookies(runtime);
@@ -362,5 +367,5 @@ export function initPreloader(
   } else {
     animatePreloaderIntro(runtime, onReady);
   }
-  writeSessionItem("hasVisited", "true");
+  writePreloaderVisit();
 }
