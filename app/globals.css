@@ -1,7 +1,6 @@
-@layer theme, era, base, components, utilities;
 @import "tailwindcss";
-@import "./era-layout.css" layer(era);
-@import "./era-interactions.css" layer(era);
+@import "./era-layout.css";
+@import "./era-interactions.css";
 
 @font-face {
   font-family: "Maison Neue Extended";
