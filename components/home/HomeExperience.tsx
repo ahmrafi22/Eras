@@ -3,15 +3,6 @@
 import Script from "next/script";
 import { useEraMotion } from "@/lib/era/motion/useEraMotion";
 
-declare global {
-  interface Window {
-    Webflow?: {
-      init: () => void;
-      ready: () => void;
-    };
-  }
-}
-
 const jqueryUrl =
   "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6a068da7ad91b057365bf967";
 const webflowUrl =
@@ -20,11 +11,6 @@ const webflowUrl =
 export function HomeExperience() {
   useEraMotion();
 
-  const initializeWebflow = () => {
-    window.Webflow?.init();
-    window.Webflow?.ready();
-  };
-
   return (
     <>
       <Script id="era-jquery" src={jqueryUrl} strategy="afterInteractive" />
@@ -32,7 +18,6 @@ export function HomeExperience() {
         id="era-webflow"
         src={webflowUrl}
         strategy="afterInteractive"
-        onLoad={initializeWebflow}
       />
     </>
   );
