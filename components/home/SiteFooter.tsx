@@ -165,7 +165,7 @@ export function SiteFooter() {
                     >
                       <div
                         className="credits_logo"
-                        data-json="assets/data/tftl-logo_white.json"
+                        data-json="/assets/data/tftl-logo_white.json"
                       ></div>
                     </div>
                     <div className="u-12"></div>

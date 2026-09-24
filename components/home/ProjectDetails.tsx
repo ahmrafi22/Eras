@@ -72,7 +72,7 @@ export function ProjectDetails() {
                                         alt=""
                                         className="logo b"
                                         loading="eager"
-                                        src="assets/img/6a1577b00ac578734e61941e_Unreal logo.svg"
+                                        src="/assets/img/6a1577b00ac578734e61941e_Unreal logo.svg"
                                       />
                                     </div>
                                     <div className="u-32"></div>
@@ -114,10 +114,10 @@ export function ProjectDetails() {
               loop
               muted
               playsInline
-              poster="assets/img/6a4afbe9f3a19844a4b0caf0_bougainvillea-flowers_07.avif"
+              poster="/assets/img/6a4afbe9f3a19844a4b0caf0_bougainvillea-flowers_07.avif"
             >
               <source
-                src="assets/video/bougainvillea-flowers_07.webm"
+                src="/assets/video/bougainvillea-flowers_07.webm"
                 type="video/webm"
               />
             </video>

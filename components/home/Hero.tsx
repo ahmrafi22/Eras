@@ -155,7 +155,7 @@ export function Hero() {
                         alt=""
                         className="img h-auto hero-img"
                         loading="eager"
-                        src="assets/img/6a25da81dce540a251389928_era-residence_gated-community_day.webp"
+                        src="/assets/img/6a25da81dce540a251389928_era-residence_gated-community_day.webp"
                       />
                     </div>
                   </div>
@@ -168,7 +168,7 @@ export function Hero() {
                         alt=""
                         className="img h-auto hero-img"
                         loading="eager"
-                        src="assets/img/6a25da802c253b9e5e3d44f5_era-residence_gated-community_night.webp"
+                        src="/assets/img/6a25da802c253b9e5e3d44f5_era-residence_gated-community_night.webp"
                       />
                     </div>
                   </div>

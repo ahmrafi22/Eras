@@ -57,7 +57,7 @@ export function QuoteSection() {
                 className="img h-auto quote-w_bg_img"
                 data-parallax="img-out"
                 loading="eager"
-                src="assets/img/6a0f8c07861fe831459ff0d9_img_cam_05_alpha.webp"
+                src="/assets/img/6a0f8c07861fe831459ff0d9_img_cam_05_alpha.webp"
               />
             </div>
           </div>

@@ -6,15 +6,15 @@ import {
 const cloudMarquees = [
   {
     variant: "is-33",
-    src: "assets/img/6a0fa3c60405a99c8530535e_img_clouds_33.avif",
+    src: "/assets/img/6a0fa3c60405a99c8530535e_img_clouds_33.avif",
   },
   {
     variant: "is-47",
-    src: "assets/img/6a0fa3c6685d7bb04792137a_img_clouds_47.avif",
+    src: "/assets/img/6a0fa3c6685d7bb04792137a_img_clouds_47.avif",
   },
   {
     variant: "is-02",
-    src: "assets/img/6a0fa3c6c9c3c584d9d78d85_img_clouds_02.avif",
+    src: "/assets/img/6a0fa3c6c9c3c584d9d78d85_img_clouds_02.avif",
   },
 ] as const;
 
@@ -144,7 +144,7 @@ export function LocationMap() {
                   alt="Coastal residential complex with pools, beachfront, roads, and distant mountains under clear blue sky."
                   className="img h-auto"
                   loading="eager"
-                  src="assets/img/6a15185e6803ae588479d12b_era-residence-master-plan.webp"
+                  src="/assets/img/6a15185e6803ae588479d12b_era-residence-master-plan.webp"
                 />
                 <div className="img-over-grad from-bot bot _100vh"></div>
               </div>

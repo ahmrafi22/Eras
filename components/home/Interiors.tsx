@@ -42,7 +42,7 @@ export function Interiors() {
                           alt="Outdoor seating with modern chair, ottoman, table, and orange drink in a garden with pink flowers."
                           className="img"
                           loading="eager"
-                          src="assets/img/6a1571e51d50c8bcf5f4bb3d_era-residence-garden-2.webp"
+                          src="/assets/img/6a1571e51d50c8bcf5f4bb3d_era-residence-garden-2.webp"
                         />
                       </div>
                     </div>
@@ -56,10 +56,10 @@ export function Interiors() {
                         loop
                         muted
                         playsInline
-                        poster="assets/img/6a4afbe968be0cc0c1f5fef2_bougainvillea-flowers_06.avif"
+                        poster="/assets/img/6a4afbe968be0cc0c1f5fef2_bougainvillea-flowers_06.avif"
                       >
                         <source
-                          src="assets/video/bougainvillea-flowers_06.webm"
+                          src="/assets/video/bougainvillea-flowers_06.webm"
                           type="video/webm"
                         />
                       </video>
@@ -88,7 +88,7 @@ export function Interiors() {
                         alt="Sunlit terrace with cushioned seating, wooden tables, plants, flowering vine canopy, and ocean in the distance."
                         className="img"
                         loading="eager"
-                        src="assets/img/6a15723f346e4b3a6c0af26a_era-residence-terrace.webp"
+                        src="/assets/img/6a15723f346e4b3a6c0af26a_era-residence-terrace.webp"
                       />
                     </div>
                   </div>

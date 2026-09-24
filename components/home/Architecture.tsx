@@ -19,10 +19,10 @@ export function Architecture() {
                   loop
                   muted
                   playsInline
-                  poster="assets/img/6a4afbe9a4873ec6185f295d_bougainvillea-flowers_05.avif"
+                  poster="/assets/img/6a4afbe9a4873ec6185f295d_bougainvillea-flowers_05.avif"
                 >
                   <source
-                    src="assets/video/bougainvillea-flowers_05.webm"
+                    src="/assets/video/bougainvillea-flowers_05.webm"
                     type="video/webm"
                   />
                 </video>
@@ -37,10 +37,10 @@ export function Architecture() {
                   loop
                   muted
                   playsInline
-                  poster="assets/img/6a4afbe9f3a19844a4b0caf0_bougainvillea-flowers_07.avif"
+                  poster="/assets/img/6a4afbe9f3a19844a4b0caf0_bougainvillea-flowers_07.avif"
                 >
                   <source
-                    src="assets/video/bougainvillea-flowers_07.webm"
+                    src="/assets/video/bougainvillea-flowers_07.webm"
                     type="video/webm"
                   />
                 </video>
@@ -167,7 +167,7 @@ export function Architecture() {
                   className="img"
                   data-parallax="img"
                   loading="eager"
-                  src="assets/img/6a0f8994091fd12c24e79c8a_img_cam_02.webp"
+                  src="/assets/img/6a0f8994091fd12c24e79c8a_img_cam_02.webp"
                 />
                 <div className="img-over-grad bot _100vh"></div>
                 <div className="img-over-grad bot _100vh"></div>

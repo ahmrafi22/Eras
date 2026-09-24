@@ -54,10 +54,10 @@ export function ResidenceRange() {
               }}
               loop
               muted
-              poster="assets/img/6a4afbe98eb07b9ca5b07e84_bougainvillea-flowers_04.avif"
+              poster="/assets/img/6a4afbe98eb07b9ca5b07e84_bougainvillea-flowers_04.avif"
             >
               <source
-                src="assets/video/bougainvillea-flowers_04.webm"
+                src="/assets/video/bougainvillea-flowers_04.webm"
                 type="video/webm"
               />
             </video>

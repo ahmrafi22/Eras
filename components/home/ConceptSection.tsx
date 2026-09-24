@@ -73,10 +73,10 @@ export function ConceptSection() {
                     }}
                     loop
                     muted
-                    poster="assets/img/6a4afbe9f3a19844a4b0caed_bougainvillea-flowers_01.avif"
+                    poster="/assets/img/6a4afbe9f3a19844a4b0caed_bougainvillea-flowers_01.avif"
                   >
                     <source
-                      src="assets/video/bougainvillea-flowers_01.webm"
+                      src="/assets/video/bougainvillea-flowers_01.webm"
                       type="video/webm"
                     />
                   </video>
@@ -110,7 +110,7 @@ export function ConceptSection() {
                           alt="Sunlit modern terrace with cushioned sofas, wooden tables, climbing plants, and ocean view under clear sky."
                           className="img"
                           loading="eager"
-                          src="assets/img/6a15723f346e4b3a6c0af26a_era-residence-terrace.webp"
+                          src="/assets/img/6a15723f346e4b3a6c0af26a_era-residence-terrace.webp"
                         />
                       </div>
                     </div>
@@ -221,10 +221,10 @@ export function ConceptSection() {
                     }}
                     loop
                     muted
-                    poster="assets/img/6a4afbe941e5e917a8f84c4a_bougainvillea-flowers_02.avif"
+                    poster="/assets/img/6a4afbe941e5e917a8f84c4a_bougainvillea-flowers_02.avif"
                   >
                     <source
-                      src="assets/video/bougainvillea-flowers_02.webm"
+                      src="/assets/video/bougainvillea-flowers_02.webm"
                       type="video/webm"
                     />
                   </video>
@@ -271,14 +271,14 @@ export function ConceptSection() {
                             alt=""
                             className="img loc-path"
                             loading="eager"
-                            src="assets/img/6a51975c584436cfdd9e2406_loc_path.svg"
+                            src="/assets/img/6a51975c584436cfdd9e2406_loc_path.svg"
                           />
                           <img
                             alt=""
                             className="img h-auto"
                             data-scroll-reveal="ctn"
                             loading="eager"
-                            src="assets/img/6a51975cc959ee1e44045b0e_loc_path_labels.svg"
+                            src="/assets/img/6a51975cc959ee1e44045b0e_loc_path_labels.svg"
                           />
                         </div>
                       </div>
@@ -297,10 +297,10 @@ export function ConceptSection() {
                       }}
                       loop
                     muted
-                      poster="assets/img/6a4afbe988f8dc3c9bb1647a_bougainvillea-flowers_03.avif"
+                      poster="/assets/img/6a4afbe988f8dc3c9bb1647a_bougainvillea-flowers_03.avif"
                     >
                       <source
-                        src="assets/video/bougainvillea-flowers_03.webm"
+                        src="/assets/video/bougainvillea-flowers_03.webm"
                         type="video/webm"
                       />
                     </video>
