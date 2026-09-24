@@ -86,6 +86,12 @@ const structuredData = {
       },
     ],
     telephone: "+34655408648",
+    image: [
+      "https://cdn.prod.website-files.com/6a068da7ad91b057365bf967/6a25da81dce540a251389928_era-residence_gated-community_day.webp",
+      "https://cdn.prod.website-files.com/6a0853d5dab31b18f0677081/6a150affaf1d8cc969d57dd0_img_cam_02.webp",
+      "https://cdn.prod.website-files.com/6a0853d5dab31b18f0677081/6a150bbc2a39862be04f2cd5_era-residence-terrace.webp",
+      "https://cdn.prod.website-files.com/6a068da7ad91b057365bf967/6a0f8c07861fe831459ff0d9_img_cam_05_alpha.webp",
+    ],
   },
 };
 
@@ -105,6 +111,14 @@ export const metadata: Metadata = {
         width: 2400,
         height: 1260,
         alt: "ERA Residence",
+      },
+    ],
+    videos: [
+      {
+        url: "https://assets.era-residence.com/open-graph.mp4",
+        type: "video/mp4",
+        width: 1200,
+        height: 630,
       },
     ],
   },
