@@ -1,4 +1,3 @@
-import type Lenis from "lenis";
 import type { SplitText } from "gsap/SplitText";
 
 export type RevealKind = "a" | "h" | "p" | "ctn" | "line" | "slide";

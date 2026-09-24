@@ -13,6 +13,7 @@ import type { EraRuntime } from "./runtime";
 import {
   animateCtn,
   animateSlide,
+  animateTextA,
   animateTextH,
   animateTextP,
 } from "./text";

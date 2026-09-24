@@ -7,7 +7,7 @@ export class EraRuntime {
   cleanups = new Set<Cleanup>();
   activeAccordion: ClosableCard | null = null;
   activeTips = new Set<HTMLElement>();
-  resizeTimer: ReturnType<typeof setTimeout> | null = null;
+  resizeTimer: number | null = null;
   destroyed = false;
 
   addCleanup(cleanup: Cleanup) {
