@@ -36,3 +36,8 @@
   margin-right: 0;
   margin-left: 0;
 }
+
+.w-embed > svg {
+  display: inline;
+  vertical-align: baseline;
+}
