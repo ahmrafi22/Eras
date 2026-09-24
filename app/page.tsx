@@ -33,21 +33,21 @@ export default function Home() {
       >
         <div className="theme_on-color">
           <SiteHeader />
-          <Hero />
-          <BenefitsIntro />
-          <BenefitsShowcase />
-          <QuoteSection />
-          <ConceptSection />
-          <LocationMap />
-          <ApartmentTypes />
-          <ResidenceRange />
-          <Amenities />
-          <Interiors />
-          <Architecture />
-          <ProjectDetails />
-          <FinalCta />
-          <SiteFooter />
         </div>
+        <Hero />
+        <BenefitsIntro />
+        <BenefitsShowcase />
+        <QuoteSection />
+        <ConceptSection />
+        <LocationMap />
+        <ApartmentTypes />
+        <ResidenceRange />
+        <Amenities />
+        <Interiors />
+        <Architecture />
+        <ProjectDetails />
+        <FinalCta />
+        <SiteFooter />
         <BookCallModal />
         <MobileMenu />
         <FloatingTips />
