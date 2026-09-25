@@ -141,7 +141,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       data-wf-domain="www.era-residence.com"
       data-wf-page="6a068da7ad91b057365bf968"
       data-wf-site="6a068da7ad91b057365bf967"
-      className="h-full antialiased"
+      className="h-full antialiased [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
     >
       <body className="body min-h-full">
         {children}
@@ -151,7 +151,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           strategy="beforeInteractive"
         />
         <Script id="typekit-init" strategy="beforeInteractive">
-          {"try{Typekit.load();}catch(error){}"}
+          {"try{Typekit.load({classes:false});}catch(error){}"}
         </Script>
         <Script
           id="era-structured-data"
