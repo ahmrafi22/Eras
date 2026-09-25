@@ -49,13 +49,11 @@ export function Interiors() {
                     <div className="flower interior" data-parallax="ctn-up">
                       <video
                         className="video"
-                        {...{
-                          "webkit-playsinline": "webkit-playsinline",
-                        }}
                         disablePictureInPicture
+                        playsInline
+                        preload="none"
                         loop
                         muted
-                        playsInline
                         poster="/assets/img/6a4afbe968be0cc0c1f5fef2_bougainvillea-flowers_06.avif"
                       >
                         <source

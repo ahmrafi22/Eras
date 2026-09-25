@@ -107,13 +107,11 @@ export function ProjectDetails() {
           <div className="flower other" data-parallax="ctn-down">
             <video
               className="video"
-              {...{
-                "webkit-playsinline": "webkit-playsinline",
-              }}
               disablePictureInPicture
+              playsInline
+              preload="none"
               loop
               muted
-              playsInline
               poster="/assets/img/6a4afbe9f3a19844a4b0caf0_bougainvillea-flowers_07.avif"
             >
               <source

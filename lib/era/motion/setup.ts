@@ -240,11 +240,6 @@ function initPlayPauseVideoScroll(runtime: EraRuntime): void {
     const videos = container.querySelectorAll<HTMLVideoElement>(".video");
     if (!videos.length) return;
 
-    videos.forEach((video) => {
-      video.load();
-      video.currentTime = 0;
-    });
-
     const play = (video: HTMLVideoElement) => {
       void video.play().catch(() => {});
     };

@@ -66,11 +66,9 @@ export function ConceptSection() {
                 <div className="flower loc-info" data-parallax="ctn-down">
                   <video
                     className="video"
-                    {...{
-                      disablepictureinpicture: "",
-                      "webkit-playsinline": "webkit-playsinline",
-                      playsinline: "playsinline",
-                    }}
+                    disablePictureInPicture
+                    playsInline
+                    preload="none"
                     loop
                     muted
                     poster="/assets/img/6a4afbe9f3a19844a4b0caed_bougainvillea-flowers_01.avif"
@@ -214,11 +212,9 @@ export function ConceptSection() {
                 <div className="flower loc-intro">
                   <video
                     className="video"
-                    {...{
-                      disablepictureinpicture: "",
-                      "webkit-playsinline": "webkit-playsinline",
-                      playsinline: "playsinline",
-                    }}
+                    disablePictureInPicture
+                    playsInline
+                    preload="none"
                     loop
                     muted
                     poster="/assets/img/6a4afbe941e5e917a8f84c4a_bougainvillea-flowers_02.avif"
@@ -290,11 +286,9 @@ export function ConceptSection() {
                   <div className="flower loc-path">
                     <video
                       className="video"
-                      {...{
-                        disablepictureinpicture: "",
-                        "webkit-playsinline": "webkit-playsinline",
-                        playsinline: "playsinline",
-                      }}
+                      disablePictureInPicture
+                      playsInline
+                      preload="none"
                       loop
                     muted
                       poster="/assets/img/6a4afbe988f8dc3c9bb1647a_bougainvillea-flowers_03.avif"

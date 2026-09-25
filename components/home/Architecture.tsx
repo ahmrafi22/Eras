@@ -12,13 +12,11 @@ export function Architecture() {
               <div className="flower arch-intro-l">
                 <video
                   className="video"
-                  {...{
-                    "webkit-playsinline": "webkit-playsinline",
-                  }}
                   disablePictureInPicture
+                  playsInline
+                  preload="none"
                   loop
                   muted
-                  playsInline
                   poster="/assets/img/6a4afbe9a4873ec6185f295d_bougainvillea-flowers_05.avif"
                 >
                   <source
@@ -30,13 +28,11 @@ export function Architecture() {
               <div className="flower arch-intro-r">
                 <video
                   className="video"
-                  {...{
-                    "webkit-playsinline": "webkit-playsinline",
-                  }}
                   disablePictureInPicture
+                  playsInline
+                  preload="none"
                   loop
                   muted
-                  playsInline
                   poster="/assets/img/6a4afbe9f3a19844a4b0caf0_bougainvillea-flowers_07.avif"
                 >
                   <source
