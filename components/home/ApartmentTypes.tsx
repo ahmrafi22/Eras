@@ -143,7 +143,7 @@ export function ApartmentTypes() {
                                 <img
                                   alt={apartment.image.alt}
                                   className="img"
-                                  loading="eager"
+                                  loading="lazy"
                                   src={apartment.image.src}
                                 />
                               </div>

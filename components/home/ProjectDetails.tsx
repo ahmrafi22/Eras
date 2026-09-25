@@ -71,7 +71,7 @@ export function ProjectDetails() {
                                       <img
                                         alt=""
                                         className="logo b"
-                                        loading="eager"
+                                        loading="lazy"
                                         src="/assets/img/6a1577b00ac578734e61941e_Unreal logo.svg"
                                       />
                                     </div>

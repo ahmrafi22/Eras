@@ -166,7 +166,7 @@ export function Architecture() {
                   alt="Modern terrace apartments with green plants, flowering vines, and outdoor seating on a sunny day."
                   className="img"
                   data-parallax="img"
-                  loading="eager"
+                  loading="lazy"
                   src="/assets/img/6a0f8994091fd12c24e79c8a_img_cam_02.webp"
                 />
                 <div className="img-over-grad bot _100vh"></div>

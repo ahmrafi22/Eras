@@ -109,7 +109,7 @@ export function ConceptSection() {
                         <img
                           alt="Sunlit modern terrace with cushioned sofas, wooden tables, climbing plants, and ocean view under clear sky."
                           className="img"
-                          loading="eager"
+                          loading="lazy"
                           src="/assets/img/6a15723f346e4b3a6c0af26a_era-residence-terrace.webp"
                         />
                       </div>
@@ -270,14 +270,14 @@ export function ConceptSection() {
                           <img
                             alt=""
                             className="img loc-path"
-                            loading="eager"
+                            loading="lazy"
                             src="/assets/img/6a51975c584436cfdd9e2406_loc_path.svg"
                           />
                           <img
                             alt=""
                             className="img h-auto"
                             data-scroll-reveal="ctn"
-                            loading="eager"
+                            loading="lazy"
                             src="/assets/img/6a51975cc959ee1e44045b0e_loc_path_labels.svg"
                           />
                         </div>
