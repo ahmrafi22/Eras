@@ -172,7 +172,7 @@ export function BookCallModal() {
                       </div>
                       <div className="form_block_list">
                         <input
-                          className="d-none w-input"
+                          className="hidden w-input"
                           data-name="title"
                           id="title"
                           maxLength={256}
@@ -250,7 +250,7 @@ export function BookCallModal() {
                           ></textarea>
                         </div>
                         <input
-                          className="d-none w-input"
+                          className="hidden w-input"
                           data-name="utm_source"
                           id="utm_source"
                           maxLength={256}
@@ -259,7 +259,7 @@ export function BookCallModal() {
                           type="text"
                         />
                         <input
-                          className="d-none w-input"
+                          className="hidden w-input"
                           data-name="utm_medium"
                           id="utm_medium"
                           maxLength={256}
@@ -268,7 +268,7 @@ export function BookCallModal() {
                           type="text"
                         />
                         <input
-                          className="d-none w-input"
+                          className="hidden w-input"
                           data-name="utm_campaign"
                           id="utm_campaign"
                           maxLength={256}
@@ -277,7 +277,7 @@ export function BookCallModal() {
                           type="text"
                         />
                         <input
-                          className="d-none w-input"
+                          className="hidden w-input"
                           data-name="utm_content"
                           id="utm_content"
                           maxLength={256}
@@ -286,7 +286,7 @@ export function BookCallModal() {
                           type="text"
                         />
                         <input
-                          className="d-none w-input"
+                          className="hidden w-input"
                           data-name="utm_url"
                           id="utm_url"
                           maxLength={256}
@@ -295,7 +295,7 @@ export function BookCallModal() {
                           type="text"
                         />
                         <input
-                          className="d-none w-input"
+                          className="hidden w-input"
                           data-name="page_url"
                           id="page_url"
                           maxLength={256}
