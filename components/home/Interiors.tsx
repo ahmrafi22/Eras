@@ -6,14 +6,14 @@ import { interiorGallery } from "@/lib/era/content";
 
 export function Interiors() {
   return (
-    <section className="section arch clip">
+    <section className="section arch overflow-clip">
       <div className="container">
         <div className="interior-w">
           <div className="interior-s">
             <div className="u-272"></div>
             <div className="grid">
               <div className="interior-s_title">
-                <h2 className="h1 a-center" data-scroll-reveal="h">
+                <h2 className="h1 text-center" data-scroll-reveal="h">
                   The
                   <br />
                   space
@@ -21,7 +21,7 @@ export function Interiors() {
                   to
                 </h2>
                 <div className="interior-s_title_a">
-                  <h3 className="a1 a-center" data-scroll-reveal="a">
+                  <h3 className="a1 text-center" data-scroll-reveal="a">
                     Live in
                   </h3>
                 </div>

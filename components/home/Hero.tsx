@@ -8,7 +8,7 @@ const heroPins = [
 
 export function Hero() {
   return (
-    <section className="section clip theme_on-color" id="hero">
+    <section className="section overflow-clip theme_on-color" id="hero">
       <div className="container">
         <div className="hero-scroll-area">
           <div className="hero-w" data-tabs-hero="">
@@ -18,7 +18,7 @@ export function Hero() {
               <div className="grid">
                 <div className="hero-s_logo">
                   <h1
-                    className="h1 a-center"
+                    className="h1 text-center"
                     data-prevent-flicker=""
                     data-scroll-reveal="h"
                   >
@@ -40,7 +40,7 @@ export function Hero() {
               <div className="grid">
                 <h3 className="hero-s_title h5">
                   <span
-                    className="a-left"
+                    className="text-left flex-1"
                     data-prevent-flicker=""
                     data-scroll-reveal="h"
                   >
@@ -94,7 +94,7 @@ export function Hero() {
                     </a>
                   </div>
                   <span
-                    className="a-right"
+                    className="text-right flex-1"
                     data-prevent-flicker=""
                     data-scroll-reveal="h"
                   >
@@ -262,7 +262,7 @@ export function Hero() {
                   <div className="u-32"></div>
                   <div className="grid">
                     <div className="hero-s_desc">
-                      <p className="l1 a-center"></p>
+                      <p className="l1 text-center"></p>
                     </div>
                   </div>
                   <div className="u-48"></div>

@@ -3,14 +3,14 @@ import { projectDetails } from "@/lib/era/content";
 
 export function ProjectDetails() {
   return (
-    <section className="section clip" data-bg="light">
+    <section className="section overflow-clip" data-bg="light">
       <div className="container">
         <div className="other-w" data-video-playpause="">
           <div className="other-s">
             <div className="u-48"></div>
             <div className="grid">
               <div className="s_title">
-                <p className="l1 a-center" data-scroll-reveal="p">
+                <p className="l1 text-center" data-scroll-reveal="p">
                   A place to live — to return year after year
                 </p>
               </div>
@@ -34,7 +34,7 @@ export function ProjectDetails() {
                           <div className="other-card_name">
                             <div className="other-card_name_label">
                               <h4
-                                className="h3 a-center"
+                                className="h3 text-center"
                                 data-scroll-reveal="h"
                               >
                                 {detail.label}
@@ -79,7 +79,7 @@ export function ProjectDetails() {
                                   </>
                                 ) : null}
                                 <p
-                                  className="p1 a-center"
+                                  className="p1 text-center"
                                   data-accordion-card="p"
                                 >
                                   {detail.content}

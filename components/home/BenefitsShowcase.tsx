@@ -73,14 +73,14 @@ export function BenefitsShowcase() {
                             <div className="u-48 b-desk"></div>
                             <div className="u-272 b-mob"></div>
                             <h3
-                              className="h1 a-center b-desk"
+                              className="h1 text-center b-desk"
                               data-scroll-reveal="h"
                               data-slider="h"
                             >
                               {slide.title}
                             </h3>
                             <div
-                              className="h2 a-center b-mob"
+                              className="h2 text-center b-mob"
                               data-scroll-reveal="h"
                               data-slider="h"
                             >
@@ -111,7 +111,7 @@ export function BenefitsShowcase() {
                             <div className="grid _8-columns">
                               <div className="benefit-slide_desc">
                                 <p
-                                  className="p1 a-center"
+                                  className="p1 text-center"
                                   data-scroll-reveal="p"
                                   data-slider="p"
                                 >
@@ -123,7 +123,7 @@ export function BenefitsShowcase() {
                             <div className="grid _8-columns">
                               <div className="benefit-slide_cap">
                                 <p
-                                  className="l1 a-center"
+                                  className="l1 text-center"
                                   data-scroll-reveal="p"
                                   data-slider="p"
                                 >

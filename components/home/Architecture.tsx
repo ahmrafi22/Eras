@@ -1,6 +1,6 @@
 export function Architecture() {
   return (
-    <section className="section clip">
+    <section className="section overflow-clip">
       <div className="container">
         <div className="arch-scroll-area" data-video-playpause="">
           <div className="arch-intro-s b-desk">
@@ -51,13 +51,13 @@ export function Architecture() {
             <div className="arch-s">
               <div className="arch-s_t">
                 <div className="u-48"></div>
-                <h2 className="h1 a-center" data-fit-text="" data-text="h">
+                <h2 className="h1 text-center" data-fit-text="" data-text="h">
                   Architecture
                 </h2>
                 <div className="u-32"></div>
                 <div className="grid">
                   <div className="arch-s_desc">
-                    <p className="l1 a-center" data-text="p"></p>
+                    <p className="l1 text-center" data-text="p"></p>
                   </div>
                 </div>
               </div>

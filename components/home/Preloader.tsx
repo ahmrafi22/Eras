@@ -35,24 +35,24 @@ export function Preloader() {
         <div className="preloader_c">
           <div className="grid">
             <div className="preloader_title-l">
-              <div className="c1 a-center" data-part="h">
+              <div className="c1 text-center" data-part="h">
                 Costa
               </div>
             </div>
             <div className="preloader_logo">
-              <div className="h3 a-center" data-part="h">
+              <div className="h3 text-center" data-part="h">
                 Era
                 <br />
                 Residence
               </div>
               <div className="preloader_logo_a">
-                <div className="a2 preloader_a a-center" data-part="a">
+                <div className="a2 preloader_a text-center" data-part="a">
                   Estepona
                 </div>
               </div>
             </div>
             <div className="preloader_title-r">
-              <div className="c1 a-center" data-part="h">
+              <div className="c1 text-center" data-part="h">
                 del Sol
               </div>
             </div>
@@ -67,7 +67,7 @@ export function Preloader() {
                 </div>
               </div>
               <div className="u-32"></div>
-              <p className="l1 a-center" data-part="p">
+              <p className="l1 text-center" data-part="p">
                 Era Residence
                 <br />A place to return to.
               </p>

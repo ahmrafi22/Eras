@@ -72,7 +72,7 @@ function CloudMarquee({ variant, src }: CloudMarqueeProps) {
 
 export function LocationMap() {
   return (
-    <section className="section clip theme_on-color" data-bg="color">
+    <section className="section overflow-clip theme_on-color" data-bg="color">
       <div className="container">
         <div className="loc-w" data-parallax="w">
           <div className="loc-w_over-grad"></div>

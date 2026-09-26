@@ -264,7 +264,7 @@ export function SiteHeader() {
       <div className="s-bar-w" data-theme="">
         <div className="s-bar" data-s-bar="">
           <div className="s-bar_thumb" data-s-bar-thumb="">
-            <div className="l1 a-center" data-s-bar-label="">
+            <div className="l1 text-center" data-s-bar-label="">
               00
             </div>
           </div>

@@ -12,11 +12,11 @@ export function CookieNotice() {
             <div className="cookies_card_t">
               <div className="l1 reg b-mob">Cookies</div>
               <div className="cookies_card_title b-desk">
-                <div className="a1 a-center">Cookies</div>
+                <div className="a1 text-center">Cookies</div>
               </div>
             </div>
             <div className="cookies_card_b">
-              <div className="l1 a-center mob_a-left">
+              <div className="l1 text-center mob_a-left">
                 This website uses cookies to ensure you get the best experience on
                 website.
               </div>

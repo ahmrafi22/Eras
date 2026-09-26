@@ -20,14 +20,39 @@
 }
 
 @theme {
+  /* Palette — mirrors the --_global-colors---* tokens in era-layout.css. */
   --color-ink: #17233b;
   --color-paper: #f3f3ec;
   --color-sky: #b5cedb;
   --color-plum: #340c24;
+  --color-success: #1ba64b;
+  --color-alert: #ffa800;
+  --color-error: #e23d3d;
+
   --font-body: "Maison Neue Extended", Arial, sans-serif;
   --font-display: "ambroise-francois-std", sans-serif;
   --font-accent: "sloop-script-three", sans-serif;
+
   --breakpoint-era: 992px;
+}
+
+/* NOTE ON SPACING
+   era-interactions.css sets `html { font-size: 1vw }`, so 1rem tracks the
+   viewport width. Tailwind's rem-based spacing scale therefore scales with the
+   viewport too, and lines up exactly with the project's own --NNpx tokens
+   (--16px = 1rem, --48px = 3rem, ...). Prefer the project's u-* / *-px tokens
+   for layout-critical sizing; they keep the Webflow naming that the markup and
+   the motion code already use. */
+
+
+/* Lenis drives the scrolling, so the native scrollbar is redundant chrome. */
+html {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
 }
 
 .container {

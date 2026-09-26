@@ -2,7 +2,7 @@ import { BrandMark } from "@/components/era/BrandMark";
 
 export function ConceptSection() {
   return (
-    <section className="section clip" data-bg="light" data-slow-scroll="">
+    <section className="section overflow-clip" data-bg="light" data-slow-scroll="">
       <div className="container loc">
         <div
           className="loc-scroll-area"
@@ -20,7 +20,7 @@ export function ConceptSection() {
                   <div className="loc-info-s_c">
                     <div className="grid">
                       <div className="s_title">
-                        <h2 className="l1 a-center" data-part="p">
+                        <h2 className="l1 text-center" data-part="p">
                           The concept
                         </h2>
                       </div>
@@ -29,7 +29,7 @@ export function ConceptSection() {
                     <div className="u-160 b-mob"></div>
                     <div className="grid">
                       <div className="info-s_lead">
-                        <h3 className="h4 a-center" data-part="p">
+                        <h3 className="h4 text-center" data-part="p">
                           ERA Residences is a boutique gated community of only
                           25 residences, designed around privacy, wellbeing
                           and timeless Mediterranean living
@@ -41,7 +41,7 @@ export function ConceptSection() {
                   <div className="loc-info-s_b">
                     <div className="grid">
                       <div className="info-s_desc">
-                        <p className="p1 a-center" data-part="p">
+                        <p className="p1 text-center" data-part="p">
                           Inspired by the atmosphere of Marbella’s golden era,
                           the project combines contemporary architecture with
                           warm materials, natural landscaping and carefully
@@ -88,7 +88,7 @@ export function ConceptSection() {
                   <div className="u-160 b-mob"></div>
                   <div className="grid _13-columns fill">
                     <div className="loc-intro-s_cap">
-                      <h4 className="c1 a-center" data-scroll-reveal="h">
+                      <h4 className="c1 text-center" data-scroll-reveal="h">
                         Spain
                       </h4>
                     </div>
@@ -239,7 +239,7 @@ export function ConceptSection() {
                   <div className="loc-path-s_c">
                     <div className="grid">
                       <div className="loc-path-s_title">
-                        <h2 className="h3 a-center">
+                        <h2 className="h3 text-center">
                           <span
                             className="loc-path-s_title_line"
                             data-scroll-reveal="h"

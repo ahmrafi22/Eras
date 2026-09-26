@@ -57,7 +57,7 @@ export function SiteFooter() {
                           href="tel:+34655408648"
                           target="_blank"
                         >
-                          <div className="h2 a-center" data-text="h">
+                          <div className="h2 text-center" data-text="h">
                             +34 (655) 408-648
                           </div>
                         </a>
@@ -74,7 +74,7 @@ export function SiteFooter() {
                         data-text="ctn"
                         role="listitem"
                       >
-                        <h3 className="l1 reg a-center">Sales Office</h3>
+                        <h3 className="l1 reg text-center">Sales Office</h3>
                         <div className="u-4"></div>
                         <a
                           aria-label="Avenida Litoral, 29680 Estepona, Málaga, Spain"
@@ -169,7 +169,7 @@ export function SiteFooter() {
                       ></div>
                     </div>
                     <div className="u-12"></div>
-                    <div className="l1 reg a-right" data-text="p">
+                    <div className="l1 reg text-right flex-1" data-text="p">
                       Made by
                     </div>
                     <div data-text="p">

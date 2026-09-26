@@ -172,7 +172,7 @@ export function BookCallModal() {
                       </div>
                       <div className="form_block_list">
                         <input
-                          className="d-none w-input"
+                          className="hidden w-input"
                           data-name="title"
                           id="title"
                           maxLength={256}
@@ -250,7 +250,7 @@ export function BookCallModal() {
                           ></textarea>
                         </div>
                         <input
-                          className="d-none w-input"
+                          className="hidden w-input"
                           data-name="utm_source"
                           id="utm_source"
                           maxLength={256}
@@ -259,7 +259,7 @@ export function BookCallModal() {
                           type="text"
                         />
                         <input
-                          className="d-none w-input"
+                          className="hidden w-input"
                           data-name="utm_medium"
                           id="utm_medium"
                           maxLength={256}
@@ -268,7 +268,7 @@ export function BookCallModal() {
                           type="text"
                         />
                         <input
-                          className="d-none w-input"
+                          className="hidden w-input"
                           data-name="utm_campaign"
                           id="utm_campaign"
                           maxLength={256}
@@ -277,7 +277,7 @@ export function BookCallModal() {
                           type="text"
                         />
                         <input
-                          className="d-none w-input"
+                          className="hidden w-input"
                           data-name="utm_content"
                           id="utm_content"
                           maxLength={256}
@@ -286,7 +286,7 @@ export function BookCallModal() {
                           type="text"
                         />
                         <input
-                          className="d-none w-input"
+                          className="hidden w-input"
                           data-name="utm_url"
                           id="utm_url"
                           maxLength={256}
@@ -295,7 +295,7 @@ export function BookCallModal() {
                           type="text"
                         />
                         <input
-                          className="d-none w-input"
+                          className="hidden w-input"
                           data-name="page_url"
                           id="page_url"
                           maxLength={256}
@@ -367,11 +367,11 @@ export function BookCallModal() {
                 <div className="form_success w-form-done">
                   <div className="form_success_c">
                     <div className="form_success_title">
-                      <p className="l1 a-center">We’ve received your request</p>
+                      <p className="l1 text-center">We’ve received your request</p>
                       <div className="u-160 b-mob"></div>
                     </div>
                     <div className="form_success_a">
-                      <p className="a2 a-center">Thank you</p>
+                      <p className="a2 text-center">Thank you</p>
                     </div>
                     <div className="form_success_social">
                       <div className="u-96 b-mob"></div>
@@ -449,7 +449,7 @@ export function BookCallModal() {
                     </div>
                     <div className="form_success_desc">
                       <div className="u-48 b-mob"></div>
-                      <p className="p1 a-center">
+                      <p className="p1 text-center">
                         Our sales manager will review your message and respond
                         personally. We typically reply within one business day.
                       </p>
@@ -457,7 +457,7 @@ export function BookCallModal() {
                   </div>
                 </div>
                 <div className="form_error theme_on-dark w-form-fail">
-                  <div className="l1 a-center">
+                  <div className="l1 text-center">
                     Oops! Something went wrong while submitting the form.
                   </div>
                 </div>

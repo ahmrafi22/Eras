@@ -2,7 +2,7 @@ import { BrandMark } from "@/components/era/BrandMark";
 
 export function ResidenceRange() {
   return (
-    <section className="section clip theme_on-brand" data-bg="light">
+    <section className="section overflow-clip theme_on-brand" data-bg="light">
       <div className="container">
         <div className="apart-info-w" data-video-playpause="">
           <div className="apart-info-s">
@@ -13,7 +13,7 @@ export function ResidenceRange() {
             <div className="u-48"></div>
             <div className="grid">
               <div className="s_title">
-                <p className="l1 a-center" data-scroll-reveal="p">
+                <p className="l1 text-center" data-scroll-reveal="p">
                   A place to live — to return year after year
                 </p>
               </div>
@@ -21,7 +21,7 @@ export function ResidenceRange() {
             <div className="u-160"></div>
             <div className="grid">
               <div className="info-s_lead">
-                <h3 className="h4 a-center" data-scroll-reveal="p">
+                <h3 className="h4 text-center" data-scroll-reveal="p">
                   Residences range from 104 to 244 sq.m., offering spacious
                   single level and duplex layouts with generous terraces and
                   rooftop solariums.
@@ -31,7 +31,7 @@ export function ResidenceRange() {
             <div className="u-160"></div>
             <div className="grid">
               <div className="info-s_desc">
-                <p className="p1 a-center" data-scroll-reveal="p"></p>
+                <p className="p1 text-center" data-scroll-reveal="p"></p>
                 <div className="u-32"></div>
                 <div className="s_logo">
                   <div className="logo_symbol ico-48" data-scroll-reveal="ctn">

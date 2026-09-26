@@ -2,7 +2,7 @@ import { BrandMark } from "@/components/era/BrandMark";
 
 export function BenefitsIntro() {
   return (
-    <section className="section arch clip theme_on-brand">
+    <section className="section arch overflow-clip theme_on-brand">
       <div className="container">
         <div className="benefits-intro-w">
           <div className="benefits-intro-s">
@@ -10,7 +10,7 @@ export function BenefitsIntro() {
             <div className="u-272 b-mob"></div>
             <div className="s_logo">
               <div className="info-s_logo_l">
-                <div className="l1 a-center" data-scroll-reveal="p">
+                <div className="l1 text-center" data-scroll-reveal="p">
                   Costa
                 </div>
               </div>
@@ -23,7 +23,7 @@ export function BenefitsIntro() {
                 </div>
               </div>
               <div className="info-s_logo_r">
-                <div className="l1 a-center" data-scroll-reveal="p">
+                <div className="l1 text-center" data-scroll-reveal="p">
                   del Sol
                 </div>
               </div>
@@ -35,7 +35,7 @@ export function BenefitsIntro() {
             <div className="u-48"></div>
             <div className="grid">
               <div className="s_title">
-                <p className="l1 a-center" data-scroll-reveal="p">
+                <p className="l1 text-center" data-scroll-reveal="p">
                   A place to live — to return year after year
                 </p>
               </div>

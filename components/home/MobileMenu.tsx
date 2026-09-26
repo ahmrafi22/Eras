@@ -24,11 +24,11 @@ export function MobileMenu() {
             <div className="grid">
               <div className="modal_menu_title">
                 <div className="modal_menu_a">
-                  <div className="a1 a-center" data-part="a">
+                  <div className="a1 text-center" data-part="a">
                     The
                   </div>
                 </div>
-                <div className="h1 a-center" data-part="h">
+                <div className="h1 text-center" data-part="h">
                   Menu
                 </div>
               </div>

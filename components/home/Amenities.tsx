@@ -17,7 +17,7 @@ export function Amenities() {
   return (
     <div className="amen-scroll-area">
       <div className="scroll-area_screen">
-        <section className="section clip theme_on-color">
+        <section className="section overflow-clip theme_on-color">
           <div className="container">
             <div className="amen-w">
               <div className="amen-s">

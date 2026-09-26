@@ -125,7 +125,7 @@ export function ApartmentTypes() {
                           <div className="apart-type-slide_b">
                             <div className="u-48 b-desk"></div>
                             <h3
-                              className="h2 a-center"
+                              className="h2 text-center"
                               data-scroll-reveal="h"
                               data-slider="h"
                             >

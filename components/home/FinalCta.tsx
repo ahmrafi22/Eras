@@ -7,7 +7,7 @@ export function FinalCta() {
             <div className="u-48"></div>
             <div className="grid">
               <div className="cta-s_desc">
-                <p className="l1 a-center" data-scroll-reveal="p">
+                <p className="l1 text-center" data-scroll-reveal="p">
                   A short conversation is enough to understand which apartment
                   fits your use case — whether it is a family second home, a
                   longer stay, or a place to return to year after year.
@@ -17,12 +17,12 @@ export function FinalCta() {
             <div className="u-272"></div>
             <div className="grid">
               <div className="cta-s_title">
-                <h2 className="h1 a-center" data-scroll-reveal="h">
+                <h2 className="h1 text-center" data-scroll-reveal="h">
                   Perfect <br />
                   sea views
                 </h2>
                 <div className="u-32"></div>
-                <h3 className="c1 a-center" data-scroll-reveal="h">
+                <h3 className="c1 text-center" data-scroll-reveal="h">
                   From rooftop terraces
                 </h3>
                 <div className="u-160"></div>
