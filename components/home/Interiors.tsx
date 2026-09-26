@@ -41,7 +41,7 @@ export function Interiors() {
                         <img
                           alt="Outdoor seating with modern chair, ottoman, table, and orange drink in a garden with pink flowers."
                           className="img"
-                          loading="lazy"
+                          loading="eager"
                           src="/assets/img/6a1571e51d50c8bcf5f4bb3d_era-residence-garden-2.webp"
                         />
                       </div>
@@ -49,11 +49,13 @@ export function Interiors() {
                     <div className="flower interior" data-parallax="ctn-up">
                       <video
                         className="video"
+                        {...{
+                          "webkit-playsinline": "webkit-playsinline",
+                        }}
                         disablePictureInPicture
-                        playsInline
-                        preload="none"
                         loop
                         muted
+                        playsInline
                         poster="/assets/img/6a4afbe968be0cc0c1f5fef2_bougainvillea-flowers_06.avif"
                       >
                         <source
@@ -85,7 +87,7 @@ export function Interiors() {
                       <img
                         alt="Sunlit terrace with cushioned seating, wooden tables, plants, flowering vine canopy, and ocean in the distance."
                         className="img"
-                        loading="lazy"
+                        loading="eager"
                         src="/assets/img/6a15723f346e4b3a6c0af26a_era-residence-terrace.webp"
                       />
                     </div>
@@ -206,7 +208,7 @@ export function Interiors() {
                             <img
                               alt={image.alt}
                               className="img"
-                              loading="lazy"
+                              loading="eager"
                               src={image.src}
                             />
                           </div>

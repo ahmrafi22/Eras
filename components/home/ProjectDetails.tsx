@@ -71,7 +71,7 @@ export function ProjectDetails() {
                                       <img
                                         alt=""
                                         className="logo b"
-                                        loading="lazy"
+                                        loading="eager"
                                         src="/assets/img/6a1577b00ac578734e61941e_Unreal logo.svg"
                                       />
                                     </div>
@@ -107,11 +107,13 @@ export function ProjectDetails() {
           <div className="flower other" data-parallax="ctn-down">
             <video
               className="video"
+              {...{
+                "webkit-playsinline": "webkit-playsinline",
+              }}
               disablePictureInPicture
-              playsInline
-              preload="none"
               loop
               muted
+              playsInline
               poster="/assets/img/6a4afbe9f3a19844a4b0caf0_bougainvillea-flowers_07.avif"
             >
               <source

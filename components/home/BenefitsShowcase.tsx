@@ -99,7 +99,7 @@ export function BenefitsShowcase() {
                                 <img
                                   alt={slide.image.alt}
                                   className="img"
-                                  loading="lazy"
+                                  loading="eager"
                                   src={slide.image.src}
                                 />
                               </div>

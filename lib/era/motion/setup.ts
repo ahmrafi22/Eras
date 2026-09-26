@@ -240,6 +240,11 @@ function initPlayPauseVideoScroll(runtime: EraRuntime): void {
     const videos = container.querySelectorAll<HTMLVideoElement>(".video");
     if (!videos.length) return;
 
+    videos.forEach((video) => {
+      video.load();
+      video.currentTime = 0;
+    });
+
     const play = (video: HTMLVideoElement) => {
       void video.play().catch(() => {});
     };
@@ -309,6 +314,49 @@ function initOther(runtime: EraRuntime): void {
       void video.play().catch(() => {});
     });
   }
+}
+
+function applyFitText(): void {
+  queryAll<HTMLElement>("[data-fit-text]").forEach((element) => {
+    element.style.whiteSpace = "nowrap";
+    element.style.fontSize = "";
+    element.style.width = "max-content";
+    const parent = element.parentElement;
+    if (!parent) return;
+    const available = parent.clientWidth;
+    const natural = element.offsetWidth;
+    if (available <= 0 || natural <= 0) {
+      element.style.width = "";
+      return;
+    }
+    const size = parseFloat(getComputedStyle(element).fontSize);
+    element.style.width = "";
+    element.style.fontSize = `${size * (available / natural)}px`;
+  });
+}
+
+function initFitText(runtime: EraRuntime): void {
+  applyFitText();
+
+  document.fonts?.ready.then(() => {
+    if (runtime.destroyed) return;
+    applyFitText();
+    ScrollTrigger.refresh();
+  });
+
+  let timer: number | null = null;
+  const onResize = () => {
+    if (timer !== null) window.clearTimeout(timer);
+    timer = window.setTimeout(() => {
+      timer = null;
+      applyFitText();
+    }, 40);
+  };
+  window.addEventListener("resize", onResize);
+  runtime.addCleanup(() => {
+    window.removeEventListener("resize", onResize);
+    if (timer !== null) window.clearTimeout(timer);
+  });
 }
 
 function initScrollRevealFirst(): void {
@@ -523,6 +571,7 @@ export function initCore(runtime: EraRuntime): void {
   initUtmFields();
   initPlayPauseVideoScroll(runtime);
   initOther(runtime);
+  initFitText(runtime);
   initScrollRevealFirst();
   initAllParallax(runtime);
   initScrollElementsReveal(runtime);

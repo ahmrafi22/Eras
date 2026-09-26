@@ -108,7 +108,7 @@ export function FinalCta() {
                 alt=""
                 className="img-p"
                 data-parallax="img"
-                loading="lazy"
+                loading="eager"
                 src="/assets/img/6a0f88f3b81e88aabf6874e7_img_cta_1920.webp"
               />
               <div className="img-over-grad from-top _4x"></div>

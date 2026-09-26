@@ -539,19 +539,13 @@ function initScrollBar(runtime: EraRuntime) {
 
 function initTFTLjson(runtime: EraRuntime) {
   let cancelled = false;
-  let initialized = false;
-  const credits = queryAll<HTMLElement>(".credits");
-  if (!credits.length) return;
 
   const initialize = async () => {
-    if (initialized || cancelled || runtime.destroyed) return;
-    initialized = true;
-
     const { default: lottie } = await import("lottie-web");
     if (cancelled || runtime.destroyed) return;
 
-    credits.forEach((creditsElement) => {
-      const logo = creditsElement.querySelector<HTMLElement>(".credits_logo");
+    queryAll<HTMLElement>(".credits").forEach((credits) => {
+      const logo = credits.querySelector<HTMLElement>(".credits_logo");
       const path = logo?.getAttribute("data-json");
       if (!logo || !path) return;
 
@@ -584,12 +578,12 @@ function initTFTLjson(runtime: EraRuntime) {
       };
 
       animation.goToAndStop(0, true);
-      creditsElement.addEventListener("mouseenter", onEnter);
-      creditsElement.addEventListener("mouseleave", onLeave);
+      credits.addEventListener("mouseenter", onEnter);
+      credits.addEventListener("mouseleave", onLeave);
 
       runtime.addCleanup(() => {
-        creditsElement.removeEventListener("mouseenter", onEnter);
-        creditsElement.removeEventListener("mouseleave", onLeave);
+        credits.removeEventListener("mouseenter", onEnter);
+        credits.removeEventListener("mouseleave", onLeave);
         gsap.killTweensOf(timeline);
         timeline.kill();
         animation.destroy();
@@ -600,23 +594,7 @@ function initTFTLjson(runtime: EraRuntime) {
   runtime.addCleanup(() => {
     cancelled = true;
   });
-
-  if (typeof IntersectionObserver === "undefined") {
-    void initialize();
-    return;
-  }
-
-  const observer = new IntersectionObserver(
-    (entries) => {
-      if (entries.some((entry) => entry.isIntersecting)) {
-        observer.disconnect();
-        void initialize();
-      }
-    },
-    { rootMargin: "1000px 0px" },
-  );
-  credits.forEach((creditsElement) => observer.observe(creditsElement));
-  runtime.addCleanup(() => observer.disconnect());
+  void initialize();
 }
 
 function initFloatingTips(runtime: EraRuntime) {

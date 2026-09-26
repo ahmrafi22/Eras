@@ -12,11 +12,13 @@ export function Architecture() {
               <div className="flower arch-intro-l">
                 <video
                   className="video"
+                  {...{
+                    "webkit-playsinline": "webkit-playsinline",
+                  }}
                   disablePictureInPicture
-                  playsInline
-                  preload="none"
                   loop
                   muted
+                  playsInline
                   poster="/assets/img/6a4afbe9a4873ec6185f295d_bougainvillea-flowers_05.avif"
                 >
                   <source
@@ -28,11 +30,13 @@ export function Architecture() {
               <div className="flower arch-intro-r">
                 <video
                   className="video"
+                  {...{
+                    "webkit-playsinline": "webkit-playsinline",
+                  }}
                   disablePictureInPicture
-                  playsInline
-                  preload="none"
                   loop
                   muted
+                  playsInline
                   poster="/assets/img/6a4afbe9f3a19844a4b0caf0_bougainvillea-flowers_07.avif"
                 >
                   <source
@@ -162,7 +166,7 @@ export function Architecture() {
                   alt="Modern terrace apartments with green plants, flowering vines, and outdoor seating on a sunny day."
                   className="img"
                   data-parallax="img"
-                  loading="lazy"
+                  loading="eager"
                   src="/assets/img/6a0f8994091fd12c24e79c8a_img_cam_02.webp"
                 />
                 <div className="img-over-grad bot _100vh"></div>

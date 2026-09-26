@@ -66,11 +66,13 @@ export function ConceptSection() {
                 <div className="flower loc-info" data-parallax="ctn-down">
                   <video
                     className="video"
+                    {...{
+                      "webkit-playsinline": "webkit-playsinline",
+                    }}
                     disablePictureInPicture
-                    playsInline
-                    preload="none"
                     loop
                     muted
+                    playsInline
                     poster="/assets/img/6a4afbe9f3a19844a4b0caed_bougainvillea-flowers_01.avif"
                   >
                     <source
@@ -107,7 +109,7 @@ export function ConceptSection() {
                         <img
                           alt="Sunlit modern terrace with cushioned sofas, wooden tables, climbing plants, and ocean view under clear sky."
                           className="img"
-                          loading="lazy"
+                          loading="eager"
                           src="/assets/img/6a15723f346e4b3a6c0af26a_era-residence-terrace.webp"
                         />
                       </div>
@@ -212,11 +214,13 @@ export function ConceptSection() {
                 <div className="flower loc-intro">
                   <video
                     className="video"
+                    {...{
+                      "webkit-playsinline": "webkit-playsinline",
+                    }}
                     disablePictureInPicture
-                    playsInline
-                    preload="none"
                     loop
                     muted
+                    playsInline
                     poster="/assets/img/6a4afbe941e5e917a8f84c4a_bougainvillea-flowers_02.avif"
                   >
                     <source
@@ -266,14 +270,14 @@ export function ConceptSection() {
                           <img
                             alt=""
                             className="img loc-path"
-                            loading="lazy"
+                            loading="eager"
                             src="/assets/img/6a51975c584436cfdd9e2406_loc_path.svg"
                           />
                           <img
                             alt=""
                             className="img h-auto"
                             data-scroll-reveal="ctn"
-                            loading="lazy"
+                            loading="eager"
                             src="/assets/img/6a51975cc959ee1e44045b0e_loc_path_labels.svg"
                           />
                         </div>
@@ -286,11 +290,13 @@ export function ConceptSection() {
                   <div className="flower loc-path">
                     <video
                       className="video"
+                      {...{
+                        "webkit-playsinline": "webkit-playsinline",
+                      }}
                       disablePictureInPicture
-                      playsInline
-                      preload="none"
                       loop
-                    muted
+                      muted
+                      playsInline
                       poster="/assets/img/6a4afbe988f8dc3c9bb1647a_bougainvillea-flowers_03.avif"
                     >
                       <source

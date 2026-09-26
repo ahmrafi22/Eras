@@ -22,12 +22,58 @@ export function useEraMotion(): void {
 
     const initializeExperience = () => {
       if (runtime.destroyed) return;
+      // Scenes first: they publish the horizontal-scroll tweens that
+      // initScrollElementsReveal attaches its triggers to.
+      initScenes(runtime);
       initCore(runtime);
       initInteractions(runtime);
       initControls(runtime);
-      initScenes(runtime);
       ScrollTrigger.refresh(true);
     };
+
+    // Triggers are positioned against whatever the layout happens to be when
+    // they are created. Late-arriving fonts, images, videos and the accordion
+    // all change section offsets afterwards, which leaves every trigger below
+    // the change pointing at the wrong scroll range. Re-measure whenever the
+    // document height actually moves.
+    let settleTimer: number | null = null;
+    let lastHeight = document.documentElement.scrollHeight;
+    const refreshSoon = () => {
+      if (runtime.destroyed) return;
+      if (settleTimer !== null) window.clearTimeout(settleTimer);
+      settleTimer = window.setTimeout(() => {
+        settleTimer = null;
+        if (runtime.destroyed) return;
+        lastHeight = document.documentElement.scrollHeight;
+        ScrollTrigger.refresh();
+      }, 120);
+    };
+    runtime.addCleanup(() => {
+      if (settleTimer !== null) {
+        window.clearTimeout(settleTimer);
+        settleTimer = null;
+      }
+    });
+
+    window.addEventListener("load", refreshSoon);
+    runtime.addCleanup(() => window.removeEventListener("load", refreshSoon));
+
+    document.fonts?.ready.then(() => {
+      if (!runtime.destroyed) refreshSoon();
+    });
+
+    let observer: ResizeObserver | null = null;
+    if (typeof ResizeObserver !== "undefined") {
+      observer = new ResizeObserver(() => {
+        if (document.documentElement.scrollHeight === lastHeight) return;
+        refreshSoon();
+      });
+      observer.observe(document.documentElement);
+      runtime.addCleanup(() => {
+        observer?.disconnect();
+        observer = null;
+      });
+    }
 
     const onResize = () => {
       if (runtime.resizeTimer !== null) window.clearTimeout(runtime.resizeTimer);

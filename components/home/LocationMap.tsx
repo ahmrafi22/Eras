@@ -33,7 +33,7 @@ function CloudMarquee({ variant, src }: CloudMarqueeProps) {
               <img
                 alt=""
                 className={`clouds ${variant}`}
-                loading="lazy"
+                loading="eager"
                 src={src}
               />
             </div>
@@ -41,7 +41,7 @@ function CloudMarquee({ variant, src }: CloudMarqueeProps) {
               <img
                 alt=""
                 className={`clouds ${variant}`}
-                loading="lazy"
+                loading="eager"
                 src={src}
               />
             </div>
@@ -51,7 +51,7 @@ function CloudMarquee({ variant, src }: CloudMarqueeProps) {
               <img
                 alt=""
                 className={`clouds ${variant}`}
-                loading="lazy"
+                loading="eager"
                 src={src}
               />
             </div>
@@ -59,7 +59,7 @@ function CloudMarquee({ variant, src }: CloudMarqueeProps) {
               <img
                 alt=""
                 className={`clouds ${variant}`}
-                loading="lazy"
+                loading="eager"
                 src={src}
               />
             </div>
@@ -143,7 +143,7 @@ export function LocationMap() {
                 <img
                   alt="Coastal residential complex with pools, beachfront, roads, and distant mountains under clear blue sky."
                   className="img h-auto"
-                  loading="lazy"
+                  loading="eager"
                   src="/assets/img/6a15185e6803ae588479d12b_era-residence-master-plan.webp"
                 />
                 <div className="img-over-grad from-bot bot _100vh"></div>

@@ -154,7 +154,6 @@ export function Hero() {
                       <img
                         alt=""
                         className="img h-auto hero-img"
-                        fetchPriority="high"
                         loading="eager"
                         src="/assets/img/6a25da81dce540a251389928_era-residence_gated-community_day.webp"
                       />

@@ -47,11 +47,13 @@ export function ResidenceRange() {
           <div className="flower apart-info" data-parallax="ctn-down">
             <video
               className="video"
+              {...{
+                "webkit-playsinline": "webkit-playsinline",
+              }}
               disablePictureInPicture
-              playsInline
-              preload="none"
               loop
               muted
+              playsInline
               poster="/assets/img/6a4afbe98eb07b9ca5b07e84_bougainvillea-flowers_04.avif"
             >
               <source

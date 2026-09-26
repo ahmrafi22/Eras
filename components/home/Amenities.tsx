@@ -65,7 +65,7 @@ export function Amenities() {
                                     alt={amenity.image.alt}
                                     className="img-p"
                                     data-parallax="img-in"
-                                    loading="lazy"
+                                    loading="eager"
                                     src={amenity.image.src}
                                   />
                                 </div>
