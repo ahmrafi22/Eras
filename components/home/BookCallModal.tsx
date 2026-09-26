@@ -127,7 +127,7 @@ export function BookCallModal() {
                         <h1 className="a2 b-desk">Book a call</h1>
                         <div className="a1 b-mob">Book a call</div>
                       </div>
-                      <div className="u-24"></div>
+                      <div className="h-(--_units---u-24)"></div>
                     </div>
                     <div className="modal_cta_l_b">
                       <div className="modal_cta_desc">
@@ -138,7 +138,7 @@ export function BookCallModal() {
                         >
                           <Brand />
                         </div>
-                        <div className="u-32 b-mob"></div>
+                        <div className="h-(--_units---u-32) b-mob"></div>
                         <p className="l1 mob_a-center">
                           Leave your details and we will get back to you within
                           24 hours.
@@ -148,7 +148,7 @@ export function BookCallModal() {
                   </div>
                   <div className="modal_cta_c_c">
                     <div className="modal_cta_c_line">
-                      <div className="line-v" data-scroll-reveal="line"></div>
+                      <div className="bg-(--_colors---base-1000--primary) w-[0.75px] h-full" data-scroll-reveal="line"></div>
                     </div>
                     <div className="modal_cta_c_logo">
                       <div
@@ -161,14 +161,14 @@ export function BookCallModal() {
                       <HeaderBackdrop mobileFirst />
                     </div>
                     <div className="modal_cta_c_line">
-                      <div className="line-v" data-scroll-reveal="line"></div>
+                      <div className="bg-(--_colors---base-1000--primary) w-[0.75px] h-full" data-scroll-reveal="line"></div>
                     </div>
                   </div>
                   <div className="modal_cta_r">
                     <div className="modal_cta_form_c">
                       <div className="form_block_t">
-                        <div className="u-32 b-desk"></div>
-                        <div className="u-96 b-mob"></div>
+                        <div className="h-(--_units---u-32) b-desk"></div>
+                        <div className="h-(--_units---u-96) b-mob"></div>
                       </div>
                       <div className="form_block_list">
                         <input
@@ -303,7 +303,7 @@ export function BookCallModal() {
                           placeholder=""
                           type="text"
                         />
-                        <div className="u-160 b-mob"></div>
+                        <div className="h-(--_units---u-160) flex-none b-mob"></div>
                       </div>
                       <div className="form_block_b">
                         <div className="form_block_legal">
@@ -368,13 +368,13 @@ export function BookCallModal() {
                   <div className="form_success_c">
                     <div className="form_success_title">
                       <p className="l1 text-center">We’ve received your request</p>
-                      <div className="u-160 b-mob"></div>
+                      <div className="h-(--_units---u-160) flex-none b-mob"></div>
                     </div>
                     <div className="form_success_a">
                       <p className="a2 text-center">Thank you</p>
                     </div>
                     <div className="form_success_social">
-                      <div className="u-96 b-mob"></div>
+                      <div className="h-(--_units---u-96) b-mob"></div>
                       <div className="social-cms w-dyn-list">
                         <div
                           className="social-cms_list w-dyn-items"
@@ -398,7 +398,7 @@ export function BookCallModal() {
                                 </div>
                               </div>
                               <div className="social-btn_line" data-comma="">
-                                <div className="line-h"></div>
+                                <div className="bg-(--_colors---base-1000--primary) w-full h-[0.75px]"></div>
                               </div>
                             </a>
                           </div>
@@ -419,7 +419,7 @@ export function BookCallModal() {
                                 </div>
                               </div>
                               <div className="social-btn_line" data-comma="">
-                                <div className="line-h"></div>
+                                <div className="bg-(--_colors---base-1000--primary) w-full h-[0.75px]"></div>
                               </div>
                             </a>
                           </div>
@@ -440,7 +440,7 @@ export function BookCallModal() {
                                 </div>
                               </div>
                               <div className="social-btn_line" data-comma="">
-                                <div className="line-h"></div>
+                                <div className="bg-(--_colors---base-1000--primary) w-full h-[0.75px]"></div>
                               </div>
                             </a>
                           </div>
@@ -448,7 +448,7 @@ export function BookCallModal() {
                       </div>
                     </div>
                     <div className="form_success_desc">
-                      <div className="u-48 b-mob"></div>
+                      <div className="h-(--_units---u-48) flex-none b-mob"></div>
                       <p className="p1 text-center">
                         Our sales manager will review your message and respond
                         personally. We typically reply within one business day.

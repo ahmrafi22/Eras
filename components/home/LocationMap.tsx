@@ -89,16 +89,16 @@ export function LocationMap() {
               <div className="loc-s_desc">
                 <div className="b-desk">
                   <div className="loc-s_desc_line">
-                    <div className="line-v" data-scroll-reveal="line"></div>
+                    <div className="bg-(--_colors---base-1000--primary) w-[0.75px] h-full" data-scroll-reveal="line"></div>
                   </div>
                   <h3 className="l1" data-scroll-reveal="p">
                     New Golden Mile, Estepona
                   </h3>
-                  <div className="u-32"></div>
+                  <div className="h-(--_units---u-32)"></div>
                   <h4 className="p1" data-scroll-reveal="p">
                     Costa del Sol
                   </h4>
-                  <div className="u-32"></div>
+                  <div className="h-(--_units---u-32)"></div>
                   <h5 className="p1" data-scroll-reveal="p">
                     Spain
                   </h5>
@@ -120,7 +120,7 @@ export function LocationMap() {
                 </div>
               </div>
             </div>
-            <div className="u-48"></div>
+            <div className="h-(--_units---u-48) flex-none"></div>
             <div className="loc-w_decor theme_on-brand">
               <div className="w-embed">
                 <style>{`.loc-w_decor {

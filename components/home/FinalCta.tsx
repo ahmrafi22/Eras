@@ -4,7 +4,7 @@ export function FinalCta() {
       <div className="container" data-footer-clip="">
         <div className="cta-w">
           <div className="cta-s">
-            <div className="u-48"></div>
+            <div className="h-(--_units---u-48) flex-none"></div>
             <div className="grid">
               <div className="cta-s_desc">
                 <p className="l1 text-center" data-scroll-reveal="p">
@@ -14,18 +14,18 @@ export function FinalCta() {
                 </p>
               </div>
             </div>
-            <div className="u-272"></div>
+            <div className="h-(--_units---u-272)"></div>
             <div className="grid">
               <div className="cta-s_title">
                 <h2 className="h1 text-center" data-scroll-reveal="h">
                   Perfect <br />
                   sea views
                 </h2>
-                <div className="u-32"></div>
+                <div className="h-(--_units---u-32)"></div>
                 <h3 className="c1 text-center" data-scroll-reveal="h">
                   From rooftop terraces
                 </h3>
-                <div className="u-160"></div>
+                <div className="h-(--_units---u-160) flex-none"></div>
                 <div className="cta-s_title_btn" data-scroll-reveal="ctn">
                   <div
                     className="btn-circle"

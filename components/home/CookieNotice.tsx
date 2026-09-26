@@ -20,7 +20,7 @@ export function CookieNotice() {
                 This website uses cookies to ensure you get the best experience on
                 website.
               </div>
-              <div className="u-24"></div>
+              <div className="h-(--_units---u-24)"></div>
               <div className="cookies_card_btn-list">
                 <a
                   aria-label="Accept"

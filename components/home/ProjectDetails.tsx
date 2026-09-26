@@ -7,7 +7,7 @@ export function ProjectDetails() {
       <div className="container">
         <div className="other-w" data-video-playpause="">
           <div className="other-s">
-            <div className="u-48"></div>
+            <div className="h-(--_units---u-48) flex-none"></div>
             <div className="grid">
               <div className="s_title">
                 <p className="l1 text-center" data-scroll-reveal="p">
@@ -15,11 +15,11 @@ export function ProjectDetails() {
                 </p>
               </div>
             </div>
-            <div className="u-48"></div>
+            <div className="h-(--_units---u-48) flex-none"></div>
             <div className="divider">
-              <div className="line-v" data-scroll-reveal="line"></div>
+              <div className="bg-(--_colors---base-1000--primary) w-[0.75px] h-full" data-scroll-reveal="line"></div>
             </div>
-            <div className="u-64"></div>
+            <div className="h-(--_units---u-64)"></div>
             <div className="grid">
               <div className="other-s_cms">
                 <div className="other-cms w-dyn-list">
@@ -59,7 +59,7 @@ export function ProjectDetails() {
                             className="other-card_info"
                             data-accordion-card="content"
                           >
-                            <div className="u-32"></div>
+                            <div className="h-(--_units---u-32)"></div>
                             <div className="grid _6-columns">
                               <div className="other-card_info_desc">
                                 {detail.id === "sales-marketing" ? (
@@ -75,7 +75,7 @@ export function ProjectDetails() {
                                         src="/assets/img/6a1577b00ac578734e61941e_Unreal logo.svg"
                                       />
                                     </div>
-                                    <div className="u-32"></div>
+                                    <div className="h-(--_units---u-32)"></div>
                                   </>
                                 ) : null}
                                 <p
@@ -84,14 +84,14 @@ export function ProjectDetails() {
                                 >
                                   {detail.content}
                                 </p>
-                                <div className="u-32"></div>
+                                <div className="h-(--_units---u-32)"></div>
                                 <div
                                   className="info_divider"
                                   data-accordion-card="ctn"
                                 >
-                                  <div className="line-h"></div>
+                                  <div className="bg-(--_colors---base-1000--primary) w-full h-[0.75px]"></div>
                                 </div>
-                                <div className="u-48"></div>
+                                <div className="h-(--_units---u-48) flex-none"></div>
                               </div>
                             </div>
                           </div>
@@ -102,7 +102,7 @@ export function ProjectDetails() {
                 </div>
               </div>
             </div>
-            <div className="u-160"></div>
+            <div className="h-(--_units---u-160) flex-none"></div>
           </div>
           <div className="flower other" data-parallax="ctn-down">
             <video

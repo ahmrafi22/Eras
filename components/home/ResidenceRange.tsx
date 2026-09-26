@@ -6,11 +6,11 @@ export function ResidenceRange() {
       <div className="container">
         <div className="apart-info-w" data-video-playpause="">
           <div className="apart-info-s">
-            <div className="u-48"></div>
+            <div className="h-(--_units---u-48) flex-none"></div>
             <div className="divider">
-              <div className="line-v" data-scroll-reveal="line"></div>
+              <div className="bg-(--_colors---base-1000--primary) w-[0.75px] h-full" data-scroll-reveal="line"></div>
             </div>
-            <div className="u-48"></div>
+            <div className="h-(--_units---u-48) flex-none"></div>
             <div className="grid">
               <div className="s_title">
                 <p className="l1 text-center" data-scroll-reveal="p">
@@ -18,7 +18,7 @@ export function ResidenceRange() {
                 </p>
               </div>
             </div>
-            <div className="u-160"></div>
+            <div className="h-(--_units---u-160) flex-none"></div>
             <div className="grid">
               <div className="info-s_lead">
                 <h3 className="h4 text-center" data-scroll-reveal="p">
@@ -28,11 +28,11 @@ export function ResidenceRange() {
                 </h3>
               </div>
             </div>
-            <div className="u-160"></div>
+            <div className="h-(--_units---u-160) flex-none"></div>
             <div className="grid">
               <div className="info-s_desc">
                 <p className="p1 text-center" data-scroll-reveal="p"></p>
-                <div className="u-32"></div>
+                <div className="h-(--_units---u-32)"></div>
                 <div className="s_logo">
                   <div className="logo_symbol ico-48" data-scroll-reveal="ctn">
                     <div className="logo w-embed">
@@ -42,7 +42,7 @@ export function ResidenceRange() {
                 </div>
               </div>
             </div>
-            <div className="u-48"></div>
+            <div className="h-(--_units---u-48) flex-none"></div>
           </div>
           <div className="flower apart-info" data-parallax="ctn-down">
             <video

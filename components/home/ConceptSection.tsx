@@ -14,8 +14,8 @@ export function ConceptSection() {
               <div className="loc-info-w" data-parallax="w">
                 <div className="loc-info-s" data-parallax="img-in">
                   <div className="loc-info-s_t">
-                    <div className="u-48"></div>
-                    <div className="u-160 b-mob"></div>
+                    <div className="h-(--_units---u-48) flex-none"></div>
+                    <div className="h-(--_units---u-160) flex-none b-mob"></div>
                   </div>
                   <div className="loc-info-s_c">
                     <div className="grid">
@@ -25,8 +25,8 @@ export function ConceptSection() {
                         </h2>
                       </div>
                     </div>
-                    <div className="u-32 b-desk"></div>
-                    <div className="u-160 b-mob"></div>
+                    <div className="h-(--_units---u-32) b-desk"></div>
+                    <div className="h-(--_units---u-160) flex-none b-mob"></div>
                     <div className="grid">
                       <div className="info-s_lead">
                         <h3 className="h4 text-center" data-part="p">
@@ -36,7 +36,7 @@ export function ConceptSection() {
                         </h3>
                       </div>
                     </div>
-                    <div className="u-96 b-mob"></div>
+                    <div className="h-(--_units---u-96) b-mob"></div>
                   </div>
                   <div className="loc-info-s_b">
                     <div className="grid">
@@ -47,7 +47,7 @@ export function ConceptSection() {
                           warm materials, natural landscaping and carefully
                           curated spaces.
                         </p>
-                        <div className="u-32"></div>
+                        <div className="h-(--_units---u-32)"></div>
                         <div className="s_logo">
                           <div
                             className="logo_symbol ico-48"
@@ -60,7 +60,7 @@ export function ConceptSection() {
                         </div>
                       </div>
                     </div>
-                    <div className="u-48"></div>
+                    <div className="h-(--_units---u-48) flex-none"></div>
                   </div>
                 </div>
                 <div className="flower loc-info" data-parallax="ctn-down">
@@ -84,8 +84,8 @@ export function ConceptSection() {
               </div>
               <div className="loc-intro-w">
                 <div className="loc-intro-s">
-                  <div className="u-48 b-desk"></div>
-                  <div className="u-160 b-mob"></div>
+                  <div className="h-(--_units---u-48) flex-none b-desk"></div>
+                  <div className="h-(--_units---u-160) flex-none b-mob"></div>
                   <div className="grid _13-columns fill">
                     <div className="loc-intro-s_cap">
                       <h4 className="c1 text-center" data-scroll-reveal="h">
@@ -104,7 +104,7 @@ export function ConceptSection() {
                       </h3>
                     </div>
                     <div className="loc-intro-s_img">
-                      <div className="u-32 b-mob"></div>
+                      <div className="h-(--_units---u-32) b-mob"></div>
                       <div className="img-w" data-scroll-reveal="slide">
                         <img
                           alt="Sunlit modern terrace with cushioned sofas, wooden tables, climbing plants, and ocean view under clear sky."
@@ -115,11 +115,11 @@ export function ConceptSection() {
                       </div>
                     </div>
                     <div className="loc-intro-s_desc">
-                      <div className="u-32 b-mob"></div>
+                      <div className="h-(--_units---u-32) b-mob"></div>
                       <h3 className="h5" data-scroll-reveal="p">
                         Between Marbella and Estepona
                       </h3>
-                      <div className="u-16"></div>
+                      <div className="h-(--_units---u-16) flex-none"></div>
                       <p className="p1" data-scroll-reveal="p">
                         Surrounded by beaches, golf courses, wellness clubs and
                         established lifestyle destinations, the project combines
@@ -127,7 +127,7 @@ export function ConceptSection() {
                         essential for Mediterranean living. A location designed
                         not around movement — but around returning.
                       </p>
-                      <div className="u-96 b-mob"></div>
+                      <div className="h-(--_units---u-96) b-mob"></div>
                     </div>
                     <div
                       className="loc-intro-s_btn"
@@ -209,7 +209,7 @@ export function ConceptSection() {
                       </div>
                     </div>
                   </div>
-                  <div className="u-48"></div>
+                  <div className="h-(--_units---u-48) flex-none"></div>
                 </div>
                 <div className="flower loc-intro">
                   <video
@@ -233,8 +233,8 @@ export function ConceptSection() {
               <div className="loc-path-w">
                 <div className="loc-path-s">
                   <div className="loc-path-s_t">
-                    <div className="u-48 b-desk"></div>
-                    <div className="u-160 b-mob"></div>
+                    <div className="h-(--_units---u-48) flex-none b-desk"></div>
+                    <div className="h-(--_units---u-160) flex-none b-mob"></div>
                   </div>
                   <div className="loc-path-s_c">
                     <div className="grid">
@@ -263,7 +263,7 @@ export function ConceptSection() {
                     </div>
                   </div>
                   <div className="loc-path-s_b">
-                    <div className="u-48 b-mob"></div>
+                    <div className="h-(--_units---u-48) flex-none b-mob"></div>
                     <div className="grid">
                       <div className="loc-path-s_path scrollbar-none">
                         <div className="loc-path-s_path_c">
@@ -283,7 +283,7 @@ export function ConceptSection() {
                         </div>
                       </div>
                     </div>
-                    <div className="u-48"></div>
+                    <div className="h-(--_units---u-48) flex-none"></div>
                   </div>
                 </div>
                 <div className="loc-path-w_flower">

@@ -19,8 +19,8 @@ export function MobileMenu() {
       <div className="modal_c">
         <div className="modal_menu" data-modal-container="">
           <div className="modal_menu_t">
-            <div className="u-48 b-desk"></div>
-            <div className="u-272 b-mob"></div>
+            <div className="h-(--_units---u-48) flex-none b-desk"></div>
+            <div className="h-(--_units---u-272) b-mob"></div>
             <div className="grid">
               <div className="modal_menu_title">
                 <div className="modal_menu_a">
@@ -132,7 +132,7 @@ export function MobileMenu() {
                 <Brand />
               </div>
             </div>
-            <div className="u-48"></div>
+            <div className="h-(--_units---u-48) flex-none"></div>
           </div>
         </div>
       </div>

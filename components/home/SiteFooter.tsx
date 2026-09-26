@@ -45,7 +45,7 @@ export function SiteFooter() {
                       </div>
                     </div>
                   </div>
-                  <div className="u-32"></div>
+                  <div className="h-(--_units---u-32)"></div>
                   <div className="contact-cms w-dyn-list">
                     <div className="contact-cms_list w-dyn-items" role="list">
                       <div
@@ -64,7 +64,7 @@ export function SiteFooter() {
                       </div>
                     </div>
                   </div>
-                  <div className="u-48"></div>
+                  <div className="h-(--_units---u-48) flex-none"></div>
                 </div>
                 <div className="footer-s_address">
                   <div className="loc-cms w-dyn-list">
@@ -75,7 +75,7 @@ export function SiteFooter() {
                         role="listitem"
                       >
                         <h3 className="l1 reg text-center">Sales Office</h3>
-                        <div className="u-4"></div>
+                        <div className="h-(--_units---u-4)"></div>
                         <a
                           aria-label="Avenida Litoral, 29680 Estepona, Málaga, Spain"
                           className="nav-item w-inline-block"
@@ -110,7 +110,7 @@ export function SiteFooter() {
                   <div className="l1 reg no-wrap" data-text="p">
                     ©<span className="year">2026</span> All rights reserved
                   </div>
-                  <div className="u-12"></div>
+                  <div className="h-(--_units---u-12)"></div>
                   <div className="legal-cms w-dyn-list" data-text="p">
                     <div
                       className="legal-cms_list w-dyn-items"
@@ -168,7 +168,7 @@ export function SiteFooter() {
                         data-json="/assets/data/tftl-logo_white.json"
                       ></div>
                     </div>
-                    <div className="u-12"></div>
+                    <div className="h-(--_units---u-12)"></div>
                     <div className="l1 reg text-right flex-1" data-text="p">
                       Made by
                     </div>
@@ -196,7 +196,7 @@ export function SiteFooter() {
                   </div>
                 </div>
               </div>
-              <div className="u-48"></div>
+              <div className="h-(--_units---u-48) flex-none"></div>
             </div>
           </div>
           <div className="footer-w_bg"></div>

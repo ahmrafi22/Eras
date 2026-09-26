@@ -226,7 +226,7 @@ export function SiteHeader() {
               </div>
             </div>
           </a>
-          <div className="u-24"></div>
+          <div className="h-(--_units---u-24)"></div>
           <a
             aria-label="Book a call"
             className="nav-item w-inline-block"
@@ -243,7 +243,7 @@ export function SiteHeader() {
               </div>
             </div>
           </a>
-          <div className="u-4"></div>
+          <div className="h-(--_units---u-4)"></div>
           <a
             aria-label="Contact"
             className="nav-item w-inline-block"

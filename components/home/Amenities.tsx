@@ -43,7 +43,7 @@ export function Amenities() {
                                   >
                                     {amenity.label}
                                   </h3>
-                                  <div className="u-32"></div>
+                                  <div className="h-(--_units---u-32)"></div>
                                 </div>
                                 <div className="amen-slide_desc w-clearfix">
                                   <div className="red-line"></div>
@@ -56,7 +56,7 @@ export function Amenities() {
                                   </h4>
                                 </div>
                               </div>
-                              <div className="u-48"></div>
+                              <div className="h-(--_units---u-48) flex-none"></div>
                             </div>
                             <div className="amen-slide_img">
                               <div className="img-w" data-tab="slide">

@@ -19,7 +19,7 @@ export function Preloader() {
       <div className="preloader theme_on-dark" data-preloader="">
       <div className="preloader_ctn">
         <div className="preloader_t">
-          <div className="u-48"></div>
+          <div className="h-(--_units---u-48) flex-none"></div>
           <div className="s_logo">
             <div className="logo_symbol ico-48" data-part="ctn">
               <div className="logo w-embed">
@@ -66,14 +66,14 @@ export function Preloader() {
                   <div className="preloader_progress_track"></div>
                 </div>
               </div>
-              <div className="u-32"></div>
+              <div className="h-(--_units---u-32)"></div>
               <p className="l1 text-center" data-part="p">
                 Era Residence
                 <br />A place to return to.
               </p>
             </div>
           </div>
-          <div className="u-48"></div>
+          <div className="h-(--_units---u-48) flex-none"></div>
         </div>
       </div>
       <div className="preloader_bg_arch">

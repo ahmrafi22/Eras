@@ -13,8 +13,8 @@ export function Hero() {
         <div className="hero-scroll-area">
           <div className="hero-w" data-tabs-hero="">
             <div className="hero-s">
-              <div className="u-48"></div>
-              <div className="u-272 b-mob"></div>
+              <div className="h-(--_units---u-48) flex-none"></div>
+              <div className="h-(--_units---u-272) b-mob"></div>
               <div className="grid">
                 <div className="hero-s_logo">
                   <h1
@@ -36,7 +36,7 @@ export function Hero() {
                   </div>
                 </div>
               </div>
-              <div className="u-48"></div>
+              <div className="h-(--_units---u-48) flex-none"></div>
               <div className="grid">
                 <h3 className="hero-s_title h5">
                   <span
@@ -259,13 +259,13 @@ export function Hero() {
                       </div>
                     </div>
                   </div>
-                  <div className="u-32"></div>
+                  <div className="h-(--_units---u-32)"></div>
                   <div className="grid">
                     <div className="hero-s_desc">
                       <p className="l1 text-center"></p>
                     </div>
                   </div>
-                  <div className="u-48"></div>
+                  <div className="h-(--_units---u-48) flex-none"></div>
                 </div>
               </div>
             </div>

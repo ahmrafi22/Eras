@@ -6,8 +6,8 @@ export function BenefitsIntro() {
       <div className="container">
         <div className="benefits-intro-w">
           <div className="benefits-intro-s">
-            <div className="u-48 b-mob"></div>
-            <div className="u-272 b-mob"></div>
+            <div className="h-(--_units---u-48) flex-none b-mob"></div>
+            <div className="h-(--_units---u-272) b-mob"></div>
             <div className="s_logo">
               <div className="info-s_logo_l">
                 <div className="l1 text-center" data-scroll-reveal="p">
@@ -28,11 +28,11 @@ export function BenefitsIntro() {
                 </div>
               </div>
             </div>
-            <div className="u-48"></div>
+            <div className="h-(--_units---u-48) flex-none"></div>
             <div className="divider">
-              <div className="line-v" data-scroll-reveal="line"></div>
+              <div className="bg-(--_colors---base-1000--primary) w-[0.75px] h-full" data-scroll-reveal="line"></div>
             </div>
-            <div className="u-48"></div>
+            <div className="h-(--_units---u-48) flex-none"></div>
             <div className="grid">
               <div className="s_title">
                 <p className="l1 text-center" data-scroll-reveal="p">
@@ -40,7 +40,7 @@ export function BenefitsIntro() {
                 </p>
               </div>
             </div>
-            <div className="u-96"></div>
+            <div className="h-(--_units---u-96)"></div>
             <div className="benefits-intro-s_title">
               <div className="benefits-intro-s_title_svg b-desk w-embed">
                 <svg height="100%" viewBox="0 0 1600 1600" width="100%">

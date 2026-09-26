@@ -50,11 +50,11 @@ export function Architecture() {
           <div className="arch-w theme_on-color">
             <div className="arch-s">
               <div className="arch-s_t">
-                <div className="u-48"></div>
+                <div className="h-(--_units---u-48) flex-none"></div>
                 <h2 className="h1 text-center" data-fit-text="" data-text="h">
                   Architecture
                 </h2>
-                <div className="u-32"></div>
+                <div className="h-(--_units---u-32)"></div>
                 <div className="grid">
                   <div className="arch-s_desc">
                     <p className="l1 text-center" data-text="p"></p>
@@ -69,7 +69,7 @@ export function Architecture() {
                       The architecture of ERA Residences balances clean
                       contemporary lines with Mediterranean warmth and texture
                     </h3>
-                    <div className="u-64"></div>
+                    <div className="h-(--_units---u-64)"></div>
                     <div className="grid _4-columns">
                       <div className="arch-s_author">
                         <div className="l1" data-part="p">
@@ -80,7 +80,7 @@ export function Architecture() {
                         </div>
                       </div>
                     </div>
-                    <div className="u-160 b-desk"></div>
+                    <div className="h-(--_units---u-160) flex-none b-desk"></div>
                   </div>
                   <div className="arch-s_btn b-desk" data-part="ctn">
                     <div
@@ -157,7 +157,7 @@ export function Architecture() {
                     </div>
                   </div>
                 </div>
-                <div className="u-96"></div>
+                <div className="h-(--_units---u-96)"></div>
               </div>
             </div>
             <div className="w_bg">

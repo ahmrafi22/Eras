@@ -22,8 +22,8 @@ export function ApartmentTypes() {
       <div className="container">
         <div className="apart-type-w">
           <div className="apart-type-s">
-            <div className="u-48 b-desk"></div>
-            <div className="u-96 b-mob"></div>
+            <div className="h-(--_units---u-48) flex-none b-desk"></div>
+            <div className="h-(--_units---u-96) b-mob"></div>
             <div className="grid fill">
               <div className="apart-type-s_cms" data-slider="">
                 <div className="apart-type-cms w-dyn-list">
@@ -50,7 +50,7 @@ export function ApartmentTypes() {
                                     >
                                       Bedrooms
                                     </h4>
-                                    <div className="u-8"></div>
+                                    <div className="h-(--_units---u-8) flex-none"></div>
                                     <h5
                                       className="h5"
                                       data-scroll-reveal="p"
@@ -67,7 +67,7 @@ export function ApartmentTypes() {
                                     >
                                       Area up to
                                     </h4>
-                                    <div className="u-8"></div>
+                                    <div className="h-(--_units---u-8) flex-none"></div>
                                     <h5
                                       className="h5"
                                       data-scroll-reveal="p"
@@ -77,7 +77,7 @@ export function ApartmentTypes() {
                                     </h5>
                                   </div>
                                 </div>
-                                <div className="u-48 b-mob"></div>
+                                <div className="h-(--_units---u-48) flex-none b-mob"></div>
                               </div>
                               <div className="apart-type-slide_desc">
                                 <p
@@ -87,7 +87,7 @@ export function ApartmentTypes() {
                                 >
                                   {apartmentDescriptions[apartment.id]}
                                 </p>
-                                <div className="u-24"></div>
+                                <div className="h-(--_units---u-24)"></div>
                                 <div
                                   className="apart-type-slide_btn"
                                   data-scroll-reveal="ctn"
@@ -118,12 +118,12 @@ export function ApartmentTypes() {
                                     </div>
                                   </a>
                                 </div>
-                                <div className="u-16 b-mob"></div>
+                                <div className="h-(--_units---u-16) flex-none b-mob"></div>
                               </div>
                             </div>
                           </div>
                           <div className="apart-type-slide_b">
-                            <div className="u-48 b-desk"></div>
+                            <div className="h-(--_units---u-48) flex-none b-desk"></div>
                             <h3
                               className="h2 text-center"
                               data-scroll-reveal="h"
@@ -131,7 +131,7 @@ export function ApartmentTypes() {
                             >
                               {apartment.title}
                             </h3>
-                            <div className="u-32 b-mob"></div>
+                            <div className="h-(--_units---u-32) b-mob"></div>
                           </div>
                           <div className="apart-type-slide_img-w">
                             <div className="apart-type-slide_img">
@@ -154,7 +154,7 @@ export function ApartmentTypes() {
                     ))}
                   </div>
                 </div>
-                <div className="u-16"></div>
+                <div className="h-(--_units---u-16) flex-none"></div>
                 <div className="pag" data-scroll-reveal="ctn" data-slider="pag">
                   <div className="pag_prev" data-slider="prev">
                     <div className="ico-16">
@@ -185,7 +185,7 @@ export function ApartmentTypes() {
                   </div>
                 </div>
               </div>
-              <div className="u-48"></div>
+              <div className="h-(--_units---u-48) flex-none"></div>
             </div>
           </div>
         </div>

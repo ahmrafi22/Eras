@@ -10,7 +10,7 @@ export function Interiors() {
       <div className="container">
         <div className="interior-w">
           <div className="interior-s">
-            <div className="u-272"></div>
+            <div className="h-(--_units---u-272)"></div>
             <div className="grid">
               <div className="interior-s_title">
                 <h2 className="h1 text-center" data-scroll-reveal="h">
@@ -33,7 +33,7 @@ export function Interiors() {
                 data-mob="off"
                 data-parallax="ctn-down"
               >
-                <div className="u-272"></div>
+                <div className="h-(--_units---u-272)"></div>
                 <div className="grid _5-columns">
                   <div className="interior-s_l_img-w" data-video-playpause="">
                     <div className="interior-s_l_img">
@@ -66,13 +66,13 @@ export function Interiors() {
                     </div>
                   </div>
                   <div className="interior-s_l_desc">
-                    <div className="u-16"></div>
+                    <div className="h-(--_units---u-16) flex-none"></div>
                     <h4 className="l1" data-scroll-reveal="p">
                       Optional upgrades are available: <br />• Private
                       jacuzzi <br />• EV charging point installation <br />•
                       Photovoltaic panels
                     </h4>
-                    <div className="u-160 b-mob"></div>
+                    <div className="h-(--_units---u-160) flex-none b-mob"></div>
                   </div>
                 </div>
               </div>
@@ -93,7 +93,7 @@ export function Interiors() {
                     </div>
                   </div>
                   <div className="interior-s_r_lead w-clearfix">
-                    <div className="u-16"></div>
+                    <div className="h-(--_units---u-16) flex-none"></div>
                     <div className="red-line"></div>
                     <h4 className="h5" data-scroll-reveal="p">
                       Every detail was selected to create homes that feel
@@ -101,14 +101,14 @@ export function Interiors() {
                     </h4>
                   </div>
                   <div className="interior-s_r_desc">
-                    <div className="u-64"></div>
+                    <div className="h-(--_units---u-64)"></div>
                     <p className="p1" data-scroll-reveal="p">
                       Underfloor heating throughout the property. Climate
                       automation systems. Smart lock access systems. Electrically
                       adjustable aluminium shutters. Schneider Electric DLIFE
                       switches and mechanisms .
                     </p>
-                    <div className="u-96"></div>
+                    <div className="h-(--_units---u-96)"></div>
                   </div>
                   <div className="interior-s_r_btn" data-scroll-reveal="ctn">
                     <div
@@ -186,7 +186,7 @@ export function Interiors() {
                 </div>
               </div>
             </div>
-            <div className="u-272"></div>
+            <div className="h-(--_units---u-272)"></div>
             <div className="grid">
               <div className="interior-s_gallery-cms" data-slider="">
                 <div className="gallery-cms w-dyn-list">
@@ -217,7 +217,7 @@ export function Interiors() {
                     ))}
                   </div>
                 </div>
-                <div className="u-16"></div>
+                <div className="h-(--_units---u-16) flex-none"></div>
                 <div className="interior-s_gallery-cms_pag">
                   <div
                     className="pag"
@@ -258,7 +258,7 @@ export function Interiors() {
                 </div>
               </div>
             </div>
-            <div className="u-96"></div>
+            <div className="h-(--_units---u-96)"></div>
           </div>
           <div className="interior_themes">
             <div className="interior_themes_light-1" data-bg="light"></div>

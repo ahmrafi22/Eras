@@ -24,7 +24,7 @@ export function QuoteSection() {
                         </svg>
                       </div>
                     </div>
-                    <div className="u-32"></div>
+                    <div className="h-(--_units---u-32)"></div>
                   </div>
                 </div>
                 <div className="red-line"></div>
@@ -33,7 +33,7 @@ export function QuoteSection() {
                   making Era Residence feel closer to a group of private homes
                   than a standard
                 </h4>
-                <div className="u-64"></div>
+                <div className="h-(--_units---u-64)"></div>
                 <div className="grid _4-columns">
                   <div className="quote-s_author">
                     <div className="l1" data-scroll-reveal="p">
@@ -46,7 +46,7 @@ export function QuoteSection() {
                 </div>
               </div>
             </div>
-            <div className="u-48"></div>
+            <div className="h-(--_units---u-48) flex-none"></div>
           </div>
           <div className="quote-w_bg" data-parallax="w">
             <div className="img-w h-auto quote-w_bg_img">

@@ -17,10 +17,10 @@ export function BenefitsShowcase() {
             <div className="grid fill">
               <div className="benefits-s_cms" data-slider="">
                 <div className="benefits-s_cms_pag">
-                  <div className="u-48"></div>
-                  <div className="u-16"></div>
+                  <div className="h-(--_units---u-48) flex-none"></div>
+                  <div className="h-(--_units---u-16) flex-none"></div>
                   <div className="benefit-slide_img"></div>
-                  <div className="u-16"></div>
+                  <div className="h-(--_units---u-16) flex-none"></div>
                   <div
                     className="pag"
                     data-scroll-reveal="ctn"
@@ -70,8 +70,8 @@ export function BenefitsShowcase() {
                       >
                         <div className="benefit-slide">
                           <div className="benefit-slide_t">
-                            <div className="u-48 b-desk"></div>
-                            <div className="u-272 b-mob"></div>
+                            <div className="h-(--_units---u-48) flex-none b-desk"></div>
+                            <div className="h-(--_units---u-272) b-mob"></div>
                             <h3
                               className="h1 text-center b-desk"
                               data-scroll-reveal="h"
@@ -86,10 +86,10 @@ export function BenefitsShowcase() {
                             >
                               {slide.title}
                             </div>
-                            <div className="u-48"></div>
+                            <div className="h-(--_units---u-48) flex-none"></div>
                           </div>
                           <div className="benefit-slide_c">
-                            <div className="u-16"></div>
+                            <div className="h-(--_units---u-16) flex-none"></div>
                             <div className="benefit-slide_img">
                               <div
                                 className="img-w"
@@ -104,10 +104,10 @@ export function BenefitsShowcase() {
                                 />
                               </div>
                             </div>
-                            <div className="u-16"></div>
+                            <div className="h-(--_units---u-16) flex-none"></div>
                           </div>
                           <div className="benefit-slide_b">
-                            <div className="u-48"></div>
+                            <div className="h-(--_units---u-48) flex-none"></div>
                             <div className="grid _8-columns">
                               <div className="benefit-slide_desc">
                                 <p
@@ -119,7 +119,7 @@ export function BenefitsShowcase() {
                                 </p>
                               </div>
                             </div>
-                            <div className="u-48"></div>
+                            <div className="h-(--_units---u-48) flex-none"></div>
                             <div className="grid _8-columns">
                               <div className="benefit-slide_cap">
                                 <p
@@ -131,7 +131,7 @@ export function BenefitsShowcase() {
                                 </p>
                               </div>
                             </div>
-                            <div className="u-48"></div>
+                            <div className="h-(--_units---u-48) flex-none"></div>
                           </div>
                         </div>
                       </div>
